@@ -1,0 +1,1715 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"2767 D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2767: extern volatile __bit RD6 __attribute__((address(0x46)));
+[v _RD6 `Vb ~T0 @X0 0 e@70 ]
+"2764
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2764: extern volatile __bit RD5 __attribute__((address(0x45)));
+[v _RD5 `Vb ~T0 @X0 0 e@69 ]
+"2770
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2770: extern volatile __bit RD7 __attribute__((address(0x47)));
+[v _RD7 `Vb ~T0 @X0 0 e@71 ]
+"2998
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2998: extern volatile __bit TRISD5 __attribute__((address(0x445)));
+[v _TRISD5 `Vb ~T0 @X0 0 e@1093 ]
+"3001
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 3001: extern volatile __bit TRISD6 __attribute__((address(0x446)));
+[v _TRISD6 `Vb ~T0 @X0 0 e@1094 ]
+"3004
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 3004: extern volatile __bit TRISD7 __attribute__((address(0x447)));
+[v _TRISD7 `Vb ~T0 @X0 0 e@1095 ]
+"73 ./ht1621.h
+[; ;./ht1621.h: 73: void HT1621_num_init(void);
+[v _HT1621_num_init `(v ~T0 @X0 0 ef ]
+"54 D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 636: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 643: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 650: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 657: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"732
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 732: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"739
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 739: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"810
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 810: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 817: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"887
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 887: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 894: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 901: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 908: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 966: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1061: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1068
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1068: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1075: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1082: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1089: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1096: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1154: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1161: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1257: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1327: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1377
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1377: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1439
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1439: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1501
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1501: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1563
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1563: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1620
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1620: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1682: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1722: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1756: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1818: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1825
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1825: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1832: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2001: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2082: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2089: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2159: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2224: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2231: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2290: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2297: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2304: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2311: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2318: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2363: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"6 ht1621.c
+[; ;ht1621.c: 6: const unsigned char HT1621_segtab[8]=
+[v _HT1621_segtab `Cuc ~T0 @X0 -> 8 `i e ]
+[i _HT1621_segtab
+:U ..
+-> -> 0 `i `uc
+-> -> 1 `i `uc
+-> -> 2 `i `uc
+-> -> 3 `i `uc
+-> -> 4 `i `uc
+-> -> 5 `i `uc
+-> -> 6 `i `uc
+-> -> 7 `i `uc
+..
+]
+"11
+[; ;ht1621.c: 11: unsigned char HT1621_maxcom=4;
+[v _HT1621_maxcom `uc ~T0 @X0 1 e ]
+[i _HT1621_maxcom
+-> -> 4 `i `uc
+]
+"12
+[; ;ht1621.c: 12: unsigned char HT1621_addrbit=6;
+[v _HT1621_addrbit `uc ~T0 @X0 1 e ]
+[i _HT1621_addrbit
+-> -> 6 `i `uc
+]
+"13
+[; ;ht1621.c: 13: unsigned char HT1621_dispram[8];
+[v _HT1621_dispram `uc ~T0 @X0 -> 8 `i e ]
+"14
+[; ;ht1621.c: 14: unsigned char HT1621_segi,HT1621_comi;
+[v _HT1621_segi `uc ~T0 @X0 1 e ]
+[v _HT1621_comi `uc ~T0 @X0 1 e ]
+"23
+[; ;ht1621.c: 23: void HT1621_Delay_us(unsigned int ucDat)
+[v _HT1621_Delay_us `(v ~T0 @X0 1 ef1`ui ]
+"24
+[; ;ht1621.c: 24: {
+{
+[e :U _HT1621_Delay_us ]
+"23
+[; ;ht1621.c: 23: void HT1621_Delay_us(unsigned int ucDat)
+[v _ucDat `ui ~T0 @X0 1 r1 ]
+"24
+[; ;ht1621.c: 24: {
+[f ]
+"25
+[; ;ht1621.c: 25:  while(ucDat--)
+[e $U 96  ]
+[e :U 97 ]
+"26
+[; ;ht1621.c: 26:  {
+{
+"27
+[; ;ht1621.c: 27:   unsigned int d=6;
+[v _d `ui ~T0 @X0 1 a ]
+[e = _d -> -> 6 `i `ui ]
+"28
+[; ;ht1621.c: 28:         while(--d){
+[e $U 99  ]
+[e :U 100 ]
+{
+"29
+[; ;ht1621.c: 29:         }
+}
+[e :U 99 ]
+"28
+[; ;ht1621.c: 28:         while(--d){
+[e $ != =- _d -> -> 1 `i `ui -> -> 0 `i `ui 100  ]
+[e :U 101 ]
+"31
+[; ;ht1621.c: 31:  }
+}
+[e :U 96 ]
+"25
+[; ;ht1621.c: 25:  while(ucDat--)
+[e $ != -- _ucDat -> -> 1 `i `ui -> -> 0 `i `ui 97  ]
+[e :U 98 ]
+"32
+[; ;ht1621.c: 32: }
+[e :UE 95 ]
+}
+"42
+[; ;ht1621.c: 42: void HT1621_Delay_ms(unsigned int ucDat)
+[v _HT1621_Delay_ms `(v ~T0 @X0 1 ef1`ui ]
+"43
+[; ;ht1621.c: 43: {
+{
+[e :U _HT1621_Delay_ms ]
+"42
+[; ;ht1621.c: 42: void HT1621_Delay_ms(unsigned int ucDat)
+[v _ucDat `ui ~T0 @X0 1 r1 ]
+"43
+[; ;ht1621.c: 43: {
+[f ]
+"44
+[; ;ht1621.c: 44:  unsigned int a,b;
+[v _a `ui ~T0 @X0 1 a ]
+[v _b `ui ~T0 @X0 1 a ]
+"46
+[; ;ht1621.c: 46:  for(a=ucDat; a>0; a--)
+{
+[e = _a _ucDat ]
+[e $ > _a -> -> 0 `i `ui 103  ]
+[e $U 104  ]
+[e :U 103 ]
+"47
+[; ;ht1621.c: 47:  {
+{
+"48
+[; ;ht1621.c: 48:   for(b=122; b>0; b--);
+{
+[e = _b -> -> 122 `i `ui ]
+[e $ > _b -> -> 0 `i `ui 106  ]
+[e $U 107  ]
+[e :U 106 ]
+[e -- _b -> -> 1 `i `ui ]
+[e $ > _b -> -> 0 `i `ui 106  ]
+[e :U 107 ]
+}
+"49
+[; ;ht1621.c: 49:  }
+}
+[e -- _a -> -> 1 `i `ui ]
+[e $ > _a -> -> 0 `i `ui 103  ]
+[e :U 104 ]
+}
+"50
+[; ;ht1621.c: 50: }
+[e :UE 102 ]
+}
+"56
+[; ;ht1621.c: 56: void WriteClockHT1621(void)
+[v _WriteClockHT1621 `(v ~T0 @X0 1 ef ]
+"57
+[; ;ht1621.c: 57: {
+{
+[e :U _WriteClockHT1621 ]
+[f ]
+"58
+[; ;ht1621.c: 58:  RD6 = 0;
+[e = _RD6 -> -> 0 `i `b ]
+"59
+[; ;ht1621.c: 59:  HT1621_Delay_us(10);
+[e ( _HT1621_Delay_us (1 -> -> 10 `i `ui ]
+"60
+[; ;ht1621.c: 60:  RD6 = 1;
+[e = _RD6 -> -> 1 `i `b ]
+"61
+[; ;ht1621.c: 61:  HT1621_Delay_us(10);
+[e ( _HT1621_Delay_us (1 -> -> 10 `i `ui ]
+"62
+[; ;ht1621.c: 62: }
+[e :UE 109 ]
+}
+"68
+[; ;ht1621.c: 68: void WriteCommandHT1621(unsigned char FunctonCode)
+[v _WriteCommandHT1621 `(v ~T0 @X0 1 ef1`uc ]
+"69
+[; ;ht1621.c: 69: {
+{
+[e :U _WriteCommandHT1621 ]
+"68
+[; ;ht1621.c: 68: void WriteCommandHT1621(unsigned char FunctonCode)
+[v _FunctonCode `uc ~T0 @X0 1 r1 ]
+"69
+[; ;ht1621.c: 69: {
+[f ]
+"70
+[; ;ht1621.c: 70:  unsigned char Shift = 0x80;
+[v _Shift `uc ~T0 @X0 1 a ]
+[e = _Shift -> -> 128 `i `uc ]
+"71
+[; ;ht1621.c: 71:  unsigned char i;
+[v _i `uc ~T0 @X0 1 a ]
+"73
+[; ;ht1621.c: 73:  RD5 = 0;
+[e = _RD5 -> -> 0 `i `b ]
+"74
+[; ;ht1621.c: 74:  HT1621_Delay_us(10);
+[e ( _HT1621_Delay_us (1 -> -> 10 `i `ui ]
+"76
+[; ;ht1621.c: 76:  RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+"77
+[; ;ht1621.c: 77:  WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"78
+[; ;ht1621.c: 78:  RD7 = 0;
+[e = _RD7 -> -> 0 `i `b ]
+"79
+[; ;ht1621.c: 79:  WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"80
+[; ;ht1621.c: 80:  RD7 = 0;
+[e = _RD7 -> -> 0 `i `b ]
+"81
+[; ;ht1621.c: 81:  WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"83
+[; ;ht1621.c: 83:  for(i = 0; i < 8; i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 8 `i 111  ]
+[e $U 112  ]
+[e :U 111 ]
+"84
+[; ;ht1621.c: 84:  {
+{
+"85
+[; ;ht1621.c: 85:   if(Shift & FunctonCode)
+[e $ ! != & -> _Shift `i -> _FunctonCode `i -> 0 `i 114  ]
+"86
+[; ;ht1621.c: 86:    RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+[e $U 115  ]
+"87
+[; ;ht1621.c: 87:   else
+[e :U 114 ]
+"88
+[; ;ht1621.c: 88:    RD7 = 0;
+[e = _RD7 -> -> 0 `i `b ]
+[e :U 115 ]
+"90
+[; ;ht1621.c: 90:    WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"91
+[; ;ht1621.c: 91:    Shift = Shift >> 1;
+[e = _Shift -> >> -> _Shift `i -> 1 `i `uc ]
+"92
+[; ;ht1621.c: 92:  }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 8 `i 111  ]
+[e :U 112 ]
+}
+"93
+[; ;ht1621.c: 93:  RD7 = 0;
+[e = _RD7 -> -> 0 `i `b ]
+"94
+[; ;ht1621.c: 94:  WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"96
+[; ;ht1621.c: 96:  RD5 = 1;
+[e = _RD5 -> -> 1 `i `b ]
+"97
+[; ;ht1621.c: 97:  HT1621_Delay_us(10);
+[e ( _HT1621_Delay_us (1 -> -> 10 `i `ui ]
+"98
+[; ;ht1621.c: 98:  RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+"99
+[; ;ht1621.c: 99: }
+[e :UE 110 ]
+}
+"106
+[; ;ht1621.c: 106: void Write1DataHT1621(unsigned char Addr,unsigned char Dat)
+[v _Write1DataHT1621 `(v ~T0 @X0 1 ef2`uc`uc ]
+"107
+[; ;ht1621.c: 107: {
+{
+[e :U _Write1DataHT1621 ]
+"106
+[; ;ht1621.c: 106: void Write1DataHT1621(unsigned char Addr,unsigned char Dat)
+[v _Addr `uc ~T0 @X0 1 r1 ]
+[v _Dat `uc ~T0 @X0 1 r2 ]
+"107
+[; ;ht1621.c: 107: {
+[f ]
+"108
+[; ;ht1621.c: 108:  unsigned char i;
+[v _i `uc ~T0 @X0 1 a ]
+"109
+[; ;ht1621.c: 109:  unsigned char Shift;
+[v _Shift `uc ~T0 @X0 1 a ]
+"111
+[; ;ht1621.c: 111:  RD5 = 0;
+[e = _RD5 -> -> 0 `i `b ]
+"112
+[; ;ht1621.c: 112:  HT1621_Delay_us(10);
+[e ( _HT1621_Delay_us (1 -> -> 10 `i `ui ]
+"114
+[; ;ht1621.c: 114:  RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+"115
+[; ;ht1621.c: 115:  WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"116
+[; ;ht1621.c: 116:  RD7 = 0;
+[e = _RD7 -> -> 0 `i `b ]
+"117
+[; ;ht1621.c: 117:  WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"118
+[; ;ht1621.c: 118:  RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+"119
+[; ;ht1621.c: 119:  WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"121
+[; ;ht1621.c: 121:  Shift = 0x20;
+[e = _Shift -> -> 32 `i `uc ]
+"122
+[; ;ht1621.c: 122:  for( i = 0; i < HT1621_addrbit; i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 120  ]
+[e :U 117 ]
+"123
+[; ;ht1621.c: 123:  {
+{
+"124
+[; ;ht1621.c: 124:   if(Addr & Shift)
+[e $ ! != & -> _Addr `i -> _Shift `i -> 0 `i 121  ]
+"125
+[; ;ht1621.c: 125:    RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+[e $U 122  ]
+"126
+[; ;ht1621.c: 126:   else
+[e :U 121 ]
+"127
+[; ;ht1621.c: 127:    RD7 = 0;
+[e = _RD7 -> -> 0 `i `b ]
+[e :U 122 ]
+"128
+[; ;ht1621.c: 128:   WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"129
+[; ;ht1621.c: 129:   Shift = Shift >> 1;
+[e = _Shift -> >> -> _Shift `i -> 1 `i `uc ]
+"130
+[; ;ht1621.c: 130:  }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 120 ]
+[e $ < -> _i `i -> _HT1621_addrbit `i 117  ]
+[e :U 118 ]
+}
+"132
+[; ;ht1621.c: 132:  Shift = 0x01;
+[e = _Shift -> -> 1 `i `uc ]
+"133
+[; ;ht1621.c: 133:  for (i = 0; i < 4; i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 4 `i 123  ]
+[e $U 124  ]
+[e :U 123 ]
+"134
+[; ;ht1621.c: 134:  {
+{
+"135
+[; ;ht1621.c: 135:   if( Dat & Shift)
+[e $ ! != & -> _Dat `i -> _Shift `i -> 0 `i 126  ]
+"136
+[; ;ht1621.c: 136:    RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+[e $U 127  ]
+"137
+[; ;ht1621.c: 137:   else
+[e :U 126 ]
+"138
+[; ;ht1621.c: 138:    RD7 = 0;
+[e = _RD7 -> -> 0 `i `b ]
+[e :U 127 ]
+"139
+[; ;ht1621.c: 139:   WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"140
+[; ;ht1621.c: 140:   Shift = Shift << 1;
+[e = _Shift -> << -> _Shift `i -> 1 `i `uc ]
+"141
+[; ;ht1621.c: 141:  }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 4 `i 123  ]
+[e :U 124 ]
+}
+"142
+[; ;ht1621.c: 142:  RD5 = 1;
+[e = _RD5 -> -> 1 `i `b ]
+"143
+[; ;ht1621.c: 143:  HT1621_Delay_us(10);
+[e ( _HT1621_Delay_us (1 -> -> 10 `i `ui ]
+"144
+[; ;ht1621.c: 144:  RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+"145
+[; ;ht1621.c: 145: }
+[e :UE 116 ]
+}
+"153
+[; ;ht1621.c: 153: void WritenDataHT1621(unsigned char Addr,unsigned char *Databuf,unsigned char Cnt)
+[v _WritenDataHT1621 `(v ~T0 @X0 1 ef3`uc`*uc`uc ]
+"154
+[; ;ht1621.c: 154: {
+{
+[e :U _WritenDataHT1621 ]
+"153
+[; ;ht1621.c: 153: void WritenDataHT1621(unsigned char Addr,unsigned char *Databuf,unsigned char Cnt)
+[v _Addr `uc ~T0 @X0 1 r1 ]
+[v _Databuf `*uc ~T0 @X0 1 r2 ]
+[v _Cnt `uc ~T0 @X0 1 r3 ]
+"154
+[; ;ht1621.c: 154: {
+[f ]
+"155
+[; ;ht1621.c: 155:  unsigned char i,j;
+[v _i `uc ~T0 @X0 1 a ]
+[v _j `uc ~T0 @X0 1 a ]
+"156
+[; ;ht1621.c: 156:  unsigned char Shift;
+[v _Shift `uc ~T0 @X0 1 a ]
+"157
+[; ;ht1621.c: 157:  unsigned char dataval;
+[v _dataval `uc ~T0 @X0 1 a ]
+"159
+[; ;ht1621.c: 159:  RD5 = 0;
+[e = _RD5 -> -> 0 `i `b ]
+"160
+[; ;ht1621.c: 160:  HT1621_Delay_us(10);
+[e ( _HT1621_Delay_us (1 -> -> 10 `i `ui ]
+"162
+[; ;ht1621.c: 162:  RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+"163
+[; ;ht1621.c: 163:  WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"164
+[; ;ht1621.c: 164:  RD7 = 0;
+[e = _RD7 -> -> 0 `i `b ]
+"165
+[; ;ht1621.c: 165:  WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"166
+[; ;ht1621.c: 166:  RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+"167
+[; ;ht1621.c: 167:  WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"169
+[; ;ht1621.c: 169:  Shift = 0x20;
+[e = _Shift -> -> 32 `i `uc ]
+"170
+[; ;ht1621.c: 170:  for( i = 0; i < HT1621_addrbit; i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $U 132  ]
+[e :U 129 ]
+"171
+[; ;ht1621.c: 171:  {
+{
+"172
+[; ;ht1621.c: 172:   if (Addr & Shift)
+[e $ ! != & -> _Addr `i -> _Shift `i -> 0 `i 133  ]
+"173
+[; ;ht1621.c: 173:    RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+[e $U 134  ]
+"174
+[; ;ht1621.c: 174:   else
+[e :U 133 ]
+"175
+[; ;ht1621.c: 175:    RD7 = 0;
+[e = _RD7 -> -> 0 `i `b ]
+[e :U 134 ]
+"176
+[; ;ht1621.c: 176:   WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"177
+[; ;ht1621.c: 177:   Shift = Shift >> 1;
+[e = _Shift -> >> -> _Shift `i -> 1 `i `uc ]
+"178
+[; ;ht1621.c: 178:  }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e :U 132 ]
+[e $ < -> _i `i -> _HT1621_addrbit `i 129  ]
+[e :U 130 ]
+}
+"180
+[; ;ht1621.c: 180:  for (j = 0; j < Cnt; j++)
+{
+[e = _j -> -> 0 `i `uc ]
+[e $U 138  ]
+[e :U 135 ]
+"181
+[; ;ht1621.c: 181:  {
+{
+"182
+[; ;ht1621.c: 182:   Shift = 0x01;
+[e = _Shift -> -> 1 `i `uc ]
+"183
+[; ;ht1621.c: 183:   dataval=*Databuf++;
+[e = _dataval *U ++ _Databuf * -> -> 1 `i `x -> -> # *U _Databuf `i `x ]
+"184
+[; ;ht1621.c: 184:   for (i = 0; i < 4; i++)
+{
+[e = _i -> -> 0 `i `uc ]
+[e $ < -> _i `i -> 4 `i 139  ]
+[e $U 140  ]
+[e :U 139 ]
+"185
+[; ;ht1621.c: 185:   {
+{
+"186
+[; ;ht1621.c: 186:    if( dataval & Shift)
+[e $ ! != & -> _dataval `i -> _Shift `i -> 0 `i 142  ]
+"187
+[; ;ht1621.c: 187:     RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+[e $U 143  ]
+"188
+[; ;ht1621.c: 188:    else
+[e :U 142 ]
+"189
+[; ;ht1621.c: 189:     RD7 = 0;
+[e = _RD7 -> -> 0 `i `b ]
+[e :U 143 ]
+"190
+[; ;ht1621.c: 190:    WriteClockHT1621();
+[e ( _WriteClockHT1621 ..  ]
+"191
+[; ;ht1621.c: 191:    Shift = Shift << 1;
+[e = _Shift -> << -> _Shift `i -> 1 `i `uc ]
+"192
+[; ;ht1621.c: 192:   }
+}
+[e ++ _i -> -> 1 `i `uc ]
+[e $ < -> _i `i -> 4 `i 139  ]
+[e :U 140 ]
+}
+"193
+[; ;ht1621.c: 193:  }
+}
+[e ++ _j -> -> 1 `i `uc ]
+[e :U 138 ]
+[e $ < -> _j `i -> _Cnt `i 135  ]
+[e :U 136 ]
+}
+"194
+[; ;ht1621.c: 194:  RD5 = 1;
+[e = _RD5 -> -> 1 `i `b ]
+"195
+[; ;ht1621.c: 195:  HT1621_Delay_us(10);
+[e ( _HT1621_Delay_us (1 -> -> 10 `i `ui ]
+"196
+[; ;ht1621.c: 196:  RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+"197
+[; ;ht1621.c: 197: }
+[e :UE 128 ]
+}
+"204
+[; ;ht1621.c: 204: void HT1621_DisAll(unsigned char state)
+[v _HT1621_DisAll `(v ~T0 @X0 1 ef1`uc ]
+"205
+[; ;ht1621.c: 205: {
+{
+[e :U _HT1621_DisAll ]
+"204
+[; ;ht1621.c: 204: void HT1621_DisAll(unsigned char state)
+[v _state `uc ~T0 @X0 1 r1 ]
+"205
+[; ;ht1621.c: 205: {
+[f ]
+"206
+[; ;ht1621.c: 206:  unsigned char segi;
+[v _segi `uc ~T0 @X0 1 a ]
+"207
+[; ;ht1621.c: 207:  unsigned char dispram[32];
+[v _dispram `uc ~T0 @X0 -> 32 `i a ]
+"209
+[; ;ht1621.c: 209:  for(segi=0;segi<32;segi++)
+{
+[e = _segi -> -> 0 `i `uc ]
+[e $ < -> _segi `i -> 32 `i 145  ]
+[e $U 146  ]
+[e :U 145 ]
+"210
+[; ;ht1621.c: 210:  {
+{
+"211
+[; ;ht1621.c: 211:   dispram[segi]=0;
+[e = *U + &U _dispram * -> _segi `ux -> -> # *U &U _dispram `ui `ux -> -> 0 `i `uc ]
+"212
+[; ;ht1621.c: 212:  }
+}
+[e ++ _segi -> -> 1 `i `uc ]
+[e $ < -> _segi `i -> 32 `i 145  ]
+[e :U 146 ]
+}
+"213
+[; ;ht1621.c: 213:  for(segi=0;segi<8;segi++)
+{
+[e = _segi -> -> 0 `i `uc ]
+[e $ < -> _segi `i -> 8 `i 148  ]
+[e $U 149  ]
+[e :U 148 ]
+"214
+[; ;ht1621.c: 214:  {
+{
+"215
+[; ;ht1621.c: 215:   if(state==1)
+[e $ ! == -> _state `i -> 1 `i 151  ]
+"216
+[; ;ht1621.c: 216:   {
+{
+"217
+[; ;ht1621.c: 217:    if(HT1621_maxcom==2)
+[e $ ! == -> _HT1621_maxcom `i -> 2 `i 152  ]
+"218
+[; ;ht1621.c: 218:     HT1621_dispram[segi]=0x03;
+[e = *U + &U _HT1621_dispram * -> _segi `ux -> -> # *U &U _HT1621_dispram `ui `ux -> -> 3 `i `uc ]
+[e $U 153  ]
+"219
+[; ;ht1621.c: 219:    else if(HT1621_maxcom==3)
+[e :U 152 ]
+[e $ ! == -> _HT1621_maxcom `i -> 3 `i 154  ]
+"220
+[; ;ht1621.c: 220:     HT1621_dispram[segi]=0x07;
+[e = *U + &U _HT1621_dispram * -> _segi `ux -> -> # *U &U _HT1621_dispram `ui `ux -> -> 7 `i `uc ]
+[e $U 155  ]
+"221
+[; ;ht1621.c: 221:    else if(HT1621_maxcom==4)
+[e :U 154 ]
+[e $ ! == -> _HT1621_maxcom `i -> 4 `i 156  ]
+"222
+[; ;ht1621.c: 222:     HT1621_dispram[segi]=0x0f;
+[e = *U + &U _HT1621_dispram * -> _segi `ux -> -> # *U &U _HT1621_dispram `ui `ux -> -> 15 `i `uc ]
+[e :U 156 ]
+[e :U 155 ]
+[e :U 153 ]
+"223
+[; ;ht1621.c: 223:   }
+}
+[e $U 157  ]
+"224
+[; ;ht1621.c: 224:   else
+[e :U 151 ]
+"225
+[; ;ht1621.c: 225:   {
+{
+"226
+[; ;ht1621.c: 226:    HT1621_dispram[segi]=0x00;
+[e = *U + &U _HT1621_dispram * -> _segi `ux -> -> # *U &U _HT1621_dispram `ui `ux -> -> 0 `i `uc ]
+"227
+[; ;ht1621.c: 227:   }
+}
+[e :U 157 ]
+"228
+[; ;ht1621.c: 228:   dispram[HT1621_segtab[segi]] = HT1621_dispram[segi];
+[e = *U + &U _dispram * -> *U + &U _HT1621_segtab * -> _segi `ux -> -> # *U &U _HT1621_segtab `ui `ux `ux -> -> # *U &U _dispram `ui `ux *U + &U _HT1621_dispram * -> _segi `ux -> -> # *U &U _HT1621_dispram `ui `ux ]
+"229
+[; ;ht1621.c: 229:  }
+}
+[e ++ _segi -> -> 1 `i `uc ]
+[e $ < -> _segi `i -> 8 `i 148  ]
+[e :U 149 ]
+}
+"230
+[; ;ht1621.c: 230:  WritenDataHT1621(0,dispram,32);
+[e ( _WritenDataHT1621 (3 , , -> -> 0 `i `uc &U _dispram -> -> 32 `i `uc ]
+"231
+[; ;ht1621.c: 231: }
+[e :UE 144 ]
+}
+"238
+[; ;ht1621.c: 238: void HT1621_DisSegOn(unsigned char Seg,unsigned char Com)
+[v _HT1621_DisSegOn `(v ~T0 @X0 1 ef2`uc`uc ]
+"239
+[; ;ht1621.c: 239: {
+{
+[e :U _HT1621_DisSegOn ]
+"238
+[; ;ht1621.c: 238: void HT1621_DisSegOn(unsigned char Seg,unsigned char Com)
+[v _Seg `uc ~T0 @X0 1 r1 ]
+[v _Com `uc ~T0 @X0 1 r2 ]
+"239
+[; ;ht1621.c: 239: {
+[f ]
+"240
+[; ;ht1621.c: 240:  HT1621_dispram[Seg-HT1621_segtab[0]] |= (1<<Com);
+[e =| *U + &U _HT1621_dispram * -> -> - -> _Seg `i -> *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux `i `ui `ux -> -> # *U &U _HT1621_dispram `ui `ux -> << -> 1 `i -> _Com `i `uc ]
+"241
+[; ;ht1621.c: 241:  Write1DataHT1621(Seg,HT1621_dispram[Seg-HT1621_segtab[0]]);
+[e ( _Write1DataHT1621 (2 , _Seg *U + &U _HT1621_dispram * -> -> - -> _Seg `i -> *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux `i `ui `ux -> -> # *U &U _HT1621_dispram `ui `ux ]
+"242
+[; ;ht1621.c: 242: }
+[e :UE 158 ]
+}
+"248
+[; ;ht1621.c: 248: void HT1621_DisSegOff(unsigned char Seg,unsigned char Com)
+[v _HT1621_DisSegOff `(v ~T0 @X0 1 ef2`uc`uc ]
+"249
+[; ;ht1621.c: 249: {
+{
+[e :U _HT1621_DisSegOff ]
+"248
+[; ;ht1621.c: 248: void HT1621_DisSegOff(unsigned char Seg,unsigned char Com)
+[v _Seg `uc ~T0 @X0 1 r1 ]
+[v _Com `uc ~T0 @X0 1 r2 ]
+"249
+[; ;ht1621.c: 249: {
+[f ]
+"250
+[; ;ht1621.c: 250:  HT1621_dispram[Seg-HT1621_segtab[0]] &= ~(1<<Com);
+[e =& *U + &U _HT1621_dispram * -> -> - -> _Seg `i -> *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux `i `ui `ux -> -> # *U &U _HT1621_dispram `ui `ux -> ~ << -> 1 `i -> _Com `i `uc ]
+"251
+[; ;ht1621.c: 251:  Write1DataHT1621(Seg,HT1621_dispram[Seg-HT1621_segtab[0]]);
+[e ( _Write1DataHT1621 (2 , _Seg *U + &U _HT1621_dispram * -> -> - -> _Seg `i -> *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux `i `ui `ux -> -> # *U &U _HT1621_dispram `ui `ux ]
+"252
+[; ;ht1621.c: 252: }
+[e :UE 159 ]
+}
+"258
+[; ;ht1621.c: 258: void HT1621_Halt(void)
+[v _HT1621_Halt `(v ~T0 @X0 1 ef ]
+"259
+[; ;ht1621.c: 259: {
+{
+[e :U _HT1621_Halt ]
+[f ]
+"262
+[; ;ht1621.c: 262:  WriteCommandHT1621(0x00);
+[e ( _WriteCommandHT1621 (1 -> -> 0 `i `uc ]
+"263
+[; ;ht1621.c: 263:  WriteCommandHT1621(0x02);
+[e ( _WriteCommandHT1621 (1 -> -> 2 `i `uc ]
+"264
+[; ;ht1621.c: 264: }
+[e :UE 160 ]
+}
+"270
+[; ;ht1621.c: 270: void HT1621_Init(void)
+[v _HT1621_Init `(v ~T0 @X0 1 ef ]
+"271
+[; ;ht1621.c: 271: {
+{
+[e :U _HT1621_Init ]
+[f ]
+"272
+[; ;ht1621.c: 272:     TRISD5=0;
+[e = _TRISD5 -> -> 0 `i `b ]
+"273
+[; ;ht1621.c: 273:     TRISD6=0;
+[e = _TRISD6 -> -> 0 `i `b ]
+"274
+[; ;ht1621.c: 274:     TRISD7=0;
+[e = _TRISD7 -> -> 0 `i `b ]
+"276
+[; ;ht1621.c: 276:  RD5 = 1;
+[e = _RD5 -> -> 1 `i `b ]
+"277
+[; ;ht1621.c: 277:  RD6 = 1;
+[e = _RD6 -> -> 1 `i `b ]
+"278
+[; ;ht1621.c: 278:  RD7 = 1;
+[e = _RD7 -> -> 1 `i `b ]
+"280
+[; ;ht1621.c: 280:  WriteCommandHT1621(0x01);
+[e ( _WriteCommandHT1621 (1 -> -> 1 `i `uc ]
+"281
+[; ;ht1621.c: 281:  WriteCommandHT1621(0x03);
+[e ( _WriteCommandHT1621 (1 -> -> 3 `i `uc ]
+"284
+[; ;ht1621.c: 284:  WriteCommandHT1621(0x29);HT1621_maxcom=4;
+[e ( _WriteCommandHT1621 (1 -> -> 41 `i `uc ]
+[e = _HT1621_maxcom -> -> 4 `i `uc ]
+"309
+[; ;ht1621.c: 309:  WriteCommandHT1621(0x04);
+[e ( _WriteCommandHT1621 (1 -> -> 4 `i `uc ]
+"310
+[; ;ht1621.c: 310:  WriteCommandHT1621(0x05);
+[e ( _WriteCommandHT1621 (1 -> -> 5 `i `uc ]
+"311
+[; ;ht1621.c: 311:  WriteCommandHT1621(0x08);
+[e ( _WriteCommandHT1621 (1 -> -> 8 `i `uc ]
+"312
+[; ;ht1621.c: 312:  WriteCommandHT1621(0X80);
+[e ( _WriteCommandHT1621 (1 -> -> 128 `i `uc ]
+"314
+[; ;ht1621.c: 314:  HT1621_num_init();
+[e ( _HT1621_num_init ..  ]
+"315
+[; ;ht1621.c: 315: }
+[e :UE 161 ]
+}
+"334
+[; ;ht1621.c: 334: unsigned char LCD_RAM_Tab[16] = {
+[v _LCD_RAM_Tab `uc ~T0 @X0 -> 16 `i e ]
+[i _LCD_RAM_Tab
+:U ..
+-> -> 125 `i `uc
+-> -> 5 `i `uc
+-> -> 91 `i `uc
+-> -> 31 `i `uc
+-> -> 39 `i `uc
+-> -> 62 `i `uc
+-> -> 126 `i `uc
+-> -> 21 `i `uc
+-> -> 127 `i `uc
+-> -> 63 `i `uc
+-> -> 119 `i `uc
+-> -> 110 `i `uc
+-> -> 120 `i `uc
+-> -> 79 `i `uc
+-> -> 122 `i `uc
+-> -> 114 `i `uc
+..
+]
+"347
+[; ;ht1621.c: 347: void HT1621_num_init(void)
+[v _HT1621_num_init `(v ~T0 @X0 1 ef ]
+"348
+[; ;ht1621.c: 348: {
+{
+[e :U _HT1621_num_init ]
+[f ]
+"349
+[; ;ht1621.c: 349:  unsigned char num,LCD_data;
+[v _num `uc ~T0 @X0 1 a ]
+[v _LCD_data `uc ~T0 @X0 1 a ]
+"366
+[; ;ht1621.c: 366: }
+[e :UE 162 ]
+}
+"368
+[; ;ht1621.c: 368: void HT1621_Test(void)
+[v _HT1621_Test `(v ~T0 @X0 1 ef ]
+"369
+[; ;ht1621.c: 369: {
+{
+[e :U _HT1621_Test ]
+[f ]
+"370
+[; ;ht1621.c: 370:  HT1621_DisAll(1);
+[e ( _HT1621_DisAll (1 -> -> 1 `i `uc ]
+"371
+[; ;ht1621.c: 371:  HT1621_Delay_ms(1000);
+[e ( _HT1621_Delay_ms (1 -> -> 1000 `i `ui ]
+"372
+[; ;ht1621.c: 372:  HT1621_DisAll(0);
+[e ( _HT1621_DisAll (1 -> -> 0 `i `uc ]
+"373
+[; ;ht1621.c: 373:  HT1621_Delay_ms(1000);
+[e ( _HT1621_Delay_ms (1 -> -> 1000 `i `ui ]
+"375
+[; ;ht1621.c: 375:  for(HT1621_segi=0;HT1621_segi<8;HT1621_segi++)
+{
+[e = _HT1621_segi -> -> 0 `i `uc ]
+[e $ < -> _HT1621_segi `i -> 8 `i 164  ]
+[e $U 165  ]
+[e :U 164 ]
+"376
+[; ;ht1621.c: 376:  {
+{
+"377
+[; ;ht1621.c: 377:   for(HT1621_comi=0;HT1621_comi<HT1621_maxcom;HT1621_comi++)
+{
+[e = _HT1621_comi -> -> 0 `i `uc ]
+[e $U 170  ]
+[e :U 167 ]
+"378
+[; ;ht1621.c: 378:   {
+{
+"379
+[; ;ht1621.c: 379:    HT1621_DisSegOn(HT1621_segtab[HT1621_segi],HT1621_comi);
+[e ( _HT1621_DisSegOn (2 , *U + &U _HT1621_segtab * -> _HT1621_segi `ux -> -> # *U &U _HT1621_segtab `ui `ux _HT1621_comi ]
+"380
+[; ;ht1621.c: 380:    HT1621_Delay_ms(1000);
+[e ( _HT1621_Delay_ms (1 -> -> 1000 `i `ui ]
+"381
+[; ;ht1621.c: 381:    HT1621_DisAll(0);
+[e ( _HT1621_DisAll (1 -> -> 0 `i `uc ]
+"382
+[; ;ht1621.c: 382:   }
+}
+[e ++ _HT1621_comi -> -> 1 `i `uc ]
+[e :U 170 ]
+[e $ < -> _HT1621_comi `i -> _HT1621_maxcom `i 167  ]
+[e :U 168 ]
+}
+"383
+[; ;ht1621.c: 383:  }
+}
+[e ++ _HT1621_segi -> -> 1 `i `uc ]
+[e $ < -> _HT1621_segi `i -> 8 `i 164  ]
+[e :U 165 ]
+}
+"385
+[; ;ht1621.c: 385:  HT1621_DisAll(1);
+[e ( _HT1621_DisAll (1 -> -> 1 `i `uc ]
+"386
+[; ;ht1621.c: 386:  HT1621_Delay_ms(1000);
+[e ( _HT1621_Delay_ms (1 -> -> 1000 `i `ui ]
+"387
+[; ;ht1621.c: 387:  for(HT1621_segi=0;HT1621_segi<8;HT1621_segi++)
+{
+[e = _HT1621_segi -> -> 0 `i `uc ]
+[e $ < -> _HT1621_segi `i -> 8 `i 171  ]
+[e $U 172  ]
+[e :U 171 ]
+"388
+[; ;ht1621.c: 388:  {
+{
+"389
+[; ;ht1621.c: 389:   for(HT1621_comi=0;HT1621_comi<HT1621_maxcom;HT1621_comi++)
+{
+[e = _HT1621_comi -> -> 0 `i `uc ]
+[e $U 177  ]
+[e :U 174 ]
+"390
+[; ;ht1621.c: 390:   {
+{
+"391
+[; ;ht1621.c: 391:    HT1621_DisSegOff(HT1621_segtab[HT1621_segi],HT1621_comi);
+[e ( _HT1621_DisSegOff (2 , *U + &U _HT1621_segtab * -> _HT1621_segi `ux -> -> # *U &U _HT1621_segtab `ui `ux _HT1621_comi ]
+"392
+[; ;ht1621.c: 392:    HT1621_Delay_ms(1000);
+[e ( _HT1621_Delay_ms (1 -> -> 1000 `i `ui ]
+"393
+[; ;ht1621.c: 393:    HT1621_DisAll(1);
+[e ( _HT1621_DisAll (1 -> -> 1 `i `uc ]
+"394
+[; ;ht1621.c: 394:   }
+}
+[e ++ _HT1621_comi -> -> 1 `i `uc ]
+[e :U 177 ]
+[e $ < -> _HT1621_comi `i -> _HT1621_maxcom `i 174  ]
+[e :U 175 ]
+}
+"395
+[; ;ht1621.c: 395:  }
+}
+[e ++ _HT1621_segi -> -> 1 `i `uc ]
+[e $ < -> _HT1621_segi `i -> 8 `i 171  ]
+[e :U 172 ]
+}
+"396
+[; ;ht1621.c: 396:  HT1621_Delay_ms(1000);
+[e ( _HT1621_Delay_ms (1 -> -> 1000 `i `ui ]
+"397
+[; ;ht1621.c: 397:  HT1621_DisAll(0);
+[e ( _HT1621_DisAll (1 -> -> 0 `i `uc ]
+"398
+[; ;ht1621.c: 398: }
+[e :UE 163 ]
+}
+"405
+[; ;ht1621.c: 405: void HT1621_Display(unsigned int NUM)
+[v _HT1621_Display `(v ~T0 @X0 1 ef1`ui ]
+"406
+[; ;ht1621.c: 406: {
+{
+[e :U _HT1621_Display ]
+"405
+[; ;ht1621.c: 405: void HT1621_Display(unsigned int NUM)
+[v _NUM `ui ~T0 @X0 1 r1 ]
+"406
+[; ;ht1621.c: 406: {
+[f ]
+"407
+[; ;ht1621.c: 407:  unsigned int Temp=NUM;
+[v _Temp `ui ~T0 @X0 1 a ]
+[e = _Temp _NUM ]
+"408
+[; ;ht1621.c: 408:  unsigned char Temp_Data;
+[v _Temp_Data `uc ~T0 @X0 1 a ]
+"410
+[; ;ht1621.c: 410:  Temp_Data = Temp / 1000;
+[e = _Temp_Data -> / _Temp -> -> 1000 `i `ui `uc ]
+"411
+[; ;ht1621.c: 411:  Write1DataHT1621(HT1621_segtab[0], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"412
+[; ;ht1621.c: 412:  Write1DataHT1621(HT1621_segtab[1], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 1 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"414
+[; ;ht1621.c: 414:  Temp_Data = Temp % 1000 / 100;
+[e = _Temp_Data -> / % _Temp -> -> 1000 `i `ui -> -> 100 `i `ui `uc ]
+"415
+[; ;ht1621.c: 415:  Write1DataHT1621(HT1621_segtab[2], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 2 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"416
+[; ;ht1621.c: 416:  Write1DataHT1621(HT1621_segtab[3], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 3 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"418
+[; ;ht1621.c: 418:  Temp_Data = Temp % 1000 % 100 / 10;
+[e = _Temp_Data -> / % % _Temp -> -> 1000 `i `ui -> -> 100 `i `ui -> -> 10 `i `ui `uc ]
+"419
+[; ;ht1621.c: 419:  Write1DataHT1621(HT1621_segtab[4], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 4 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"420
+[; ;ht1621.c: 420:  Write1DataHT1621(HT1621_segtab[5], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 5 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"422
+[; ;ht1621.c: 422:  Temp_Data = Temp % 1000 % 100 % 10;
+[e = _Temp_Data -> % % % _Temp -> -> 1000 `i `ui -> -> 100 `i `ui -> -> 10 `i `ui `uc ]
+"423
+[; ;ht1621.c: 423:  Write1DataHT1621(HT1621_segtab[6], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 6 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"424
+[; ;ht1621.c: 424:  Write1DataHT1621(HT1621_segtab[7], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 7 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"425
+[; ;ht1621.c: 425: }
+[e :UE 178 ]
+}
+"427
+[; ;ht1621.c: 427: void HT1621_Display_Time(char sec, unsigned int hour,unsigned int min){
+[v _HT1621_Display_Time `(v ~T0 @X0 1 ef3`uc`ui`ui ]
+{
+[e :U _HT1621_Display_Time ]
+[v _sec `uc ~T0 @X0 1 r1 ]
+[v _hour `ui ~T0 @X0 1 r2 ]
+[v _min `ui ~T0 @X0 1 r3 ]
+[f ]
+"428
+[; ;ht1621.c: 428:     unsigned char Temp_Data;
+[v _Temp_Data `uc ~T0 @X0 1 a ]
+"429
+[; ;ht1621.c: 429:     Temp_Data=hour/10;
+[e = _Temp_Data -> / _hour -> -> 10 `i `ui `uc ]
+"430
+[; ;ht1621.c: 430:     if(Temp_Data==0&&sec==0){
+[e $ ! && == -> _Temp_Data `i -> 0 `i == -> _sec `i -> 0 `i 180  ]
+{
+"431
+[; ;ht1621.c: 431:         Write1DataHT1621(HT1621_segtab[0], (0|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> 0 `i -> 128 `i -> 4 `i `uc ]
+"432
+[; ;ht1621.c: 432:         Write1DataHT1621(HT1621_segtab[1], 0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 1 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> -> 0 `i `uc ]
+"433
+[; ;ht1621.c: 433:     }
+}
+[e $U 181  ]
+"434
+[; ;ht1621.c: 434:     else{
+[e :U 180 ]
+{
+"435
+[; ;ht1621.c: 435:         Write1DataHT1621(HT1621_segtab[0], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"436
+[; ;ht1621.c: 436:         Write1DataHT1621(HT1621_segtab[1], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 1 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"437
+[; ;ht1621.c: 437:     }
+}
+[e :U 181 ]
+"438
+[; ;ht1621.c: 438:     Temp_Data=hour%10;
+[e = _Temp_Data -> % _hour -> -> 10 `i `ui `uc ]
+"439
+[; ;ht1621.c: 439:     Write1DataHT1621(HT1621_segtab[2], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 2 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"440
+[; ;ht1621.c: 440:  Write1DataHT1621(HT1621_segtab[3], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 3 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"441
+[; ;ht1621.c: 441:     Temp_Data=min/10;
+[e = _Temp_Data -> / _min -> -> 10 `i `ui `uc ]
+"442
+[; ;ht1621.c: 442:     Write1DataHT1621(HT1621_segtab[4], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 4 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"443
+[; ;ht1621.c: 443:  Write1DataHT1621(HT1621_segtab[5], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 5 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"444
+[; ;ht1621.c: 444:     Temp_Data=min%10;
+[e = _Temp_Data -> % _min -> -> 10 `i `ui `uc ]
+"445
+[; ;ht1621.c: 445:     Write1DataHT1621(HT1621_segtab[6], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 6 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"446
+[; ;ht1621.c: 446:  Write1DataHT1621(HT1621_segtab[7], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 7 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"449
+[; ;ht1621.c: 449: }
+[e :UE 179 ]
+}
+"451
+[; ;ht1621.c: 451: void HT1621_Display_Date(unsigned int mon,unsigned int date){
+[v _HT1621_Display_Date `(v ~T0 @X0 1 ef2`ui`ui ]
+{
+[e :U _HT1621_Display_Date ]
+[v _mon `ui ~T0 @X0 1 r1 ]
+[v _date `ui ~T0 @X0 1 r2 ]
+[f ]
+"452
+[; ;ht1621.c: 452: unsigned char Temp_Data;
+[v _Temp_Data `uc ~T0 @X0 1 a ]
+"453
+[; ;ht1621.c: 453:     Temp_Data=mon/10;
+[e = _Temp_Data -> / _mon -> -> 10 `i `ui `uc ]
+"454
+[; ;ht1621.c: 454:     if(Temp_Data==0){
+[e $ ! == -> _Temp_Data `i -> 0 `i 183  ]
+{
+"455
+[; ;ht1621.c: 455:         Write1DataHT1621(HT1621_segtab[0], 0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> -> 0 `i `uc ]
+"456
+[; ;ht1621.c: 456:         Write1DataHT1621(HT1621_segtab[1], 0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 1 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> -> 0 `i `uc ]
+"457
+[; ;ht1621.c: 457:     }
+}
+[e $U 184  ]
+"458
+[; ;ht1621.c: 458:     else{
+[e :U 183 ]
+{
+"459
+[; ;ht1621.c: 459:         Write1DataHT1621(HT1621_segtab[0], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"460
+[; ;ht1621.c: 460:         Write1DataHT1621(HT1621_segtab[1], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 1 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"461
+[; ;ht1621.c: 461:     }
+}
+[e :U 184 ]
+"462
+[; ;ht1621.c: 462:     Temp_Data=mon%10;
+[e = _Temp_Data -> % _mon -> -> 10 `i `ui `uc ]
+"463
+[; ;ht1621.c: 463:     Write1DataHT1621(HT1621_segtab[2], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 2 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"464
+[; ;ht1621.c: 464:  Write1DataHT1621(HT1621_segtab[3], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 3 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"466
+[; ;ht1621.c: 466:     Temp_Data=date/10;
+[e = _Temp_Data -> / _date -> -> 10 `i `ui `uc ]
+"467
+[; ;ht1621.c: 467:     Write1DataHT1621(HT1621_segtab[4], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 4 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"468
+[; ;ht1621.c: 468:  Write1DataHT1621(HT1621_segtab[5], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 5 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"469
+[; ;ht1621.c: 469:     Temp_Data=date%10;
+[e = _Temp_Data -> % _date -> -> 10 `i `ui `uc ]
+"470
+[; ;ht1621.c: 470:     Write1DataHT1621(HT1621_segtab[6], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 6 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"471
+[; ;ht1621.c: 471:  Write1DataHT1621(HT1621_segtab[7], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 7 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"472
+[; ;ht1621.c: 472: }
+[e :UE 182 ]
+}
+"474
+[; ;ht1621.c: 474: void HT1621_Display_Year(unsigned int year){
+[v _HT1621_Display_Year `(v ~T0 @X0 1 ef1`ui ]
+{
+[e :U _HT1621_Display_Year ]
+[v _year `ui ~T0 @X0 1 r1 ]
+[f ]
+"475
+[; ;ht1621.c: 475: unsigned char Temp_Data;
+[v _Temp_Data `uc ~T0 @X0 1 a ]
+"476
+[; ;ht1621.c: 476:     Temp_Data=2;
+[e = _Temp_Data -> -> 2 `i `uc ]
+"477
+[; ;ht1621.c: 477:     Write1DataHT1621(HT1621_segtab[0], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"478
+[; ;ht1621.c: 478:  Write1DataHT1621(HT1621_segtab[1], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 1 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"479
+[; ;ht1621.c: 479:     Temp_Data=0;
+[e = _Temp_Data -> -> 0 `i `uc ]
+"480
+[; ;ht1621.c: 480:     Write1DataHT1621(HT1621_segtab[2], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 2 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"481
+[; ;ht1621.c: 481:  Write1DataHT1621(HT1621_segtab[3], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 3 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"483
+[; ;ht1621.c: 483:     Temp_Data=year/10;
+[e = _Temp_Data -> / _year -> -> 10 `i `ui `uc ]
+"484
+[; ;ht1621.c: 484:     Write1DataHT1621(HT1621_segtab[4], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 4 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"485
+[; ;ht1621.c: 485:  Write1DataHT1621(HT1621_segtab[5], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 5 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"486
+[; ;ht1621.c: 486:     Temp_Data=year%10;
+[e = _Temp_Data -> % _year -> -> 10 `i `ui `uc ]
+"487
+[; ;ht1621.c: 487:     Write1DataHT1621(HT1621_segtab[6], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 6 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"488
+[; ;ht1621.c: 488:  Write1DataHT1621(HT1621_segtab[7], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 7 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"489
+[; ;ht1621.c: 489: }
+[e :UE 185 ]
+}
+"491
+[; ;ht1621.c: 491: void IR_test_display(unsigned int add,unsigned int command){
+[v _IR_test_display `(v ~T0 @X0 1 ef2`ui`ui ]
+{
+[e :U _IR_test_display ]
+[v _add `ui ~T0 @X0 1 r1 ]
+[v _command `ui ~T0 @X0 1 r2 ]
+[f ]
+"492
+[; ;ht1621.c: 492:     unsigned char Temp_Data;
+[v _Temp_Data `uc ~T0 @X0 1 a ]
+"493
+[; ;ht1621.c: 493:     Temp_Data = add/16;
+[e = _Temp_Data -> / _add -> -> 16 `i `ui `uc ]
+"495
+[; ;ht1621.c: 495:     Write1DataHT1621(HT1621_segtab[0], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"496
+[; ;ht1621.c: 496:  Write1DataHT1621(HT1621_segtab[1], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 1 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"497
+[; ;ht1621.c: 497:     Temp_Data = add%16;
+[e = _Temp_Data -> % _add -> -> 16 `i `ui `uc ]
+"499
+[; ;ht1621.c: 499:     Write1DataHT1621(HT1621_segtab[2], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 2 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"500
+[; ;ht1621.c: 500:  Write1DataHT1621(HT1621_segtab[3], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 3 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"501
+[; ;ht1621.c: 501:     Temp_Data = command/16;
+[e = _Temp_Data -> / _command -> -> 16 `i `ui `uc ]
+"503
+[; ;ht1621.c: 503:     Write1DataHT1621(HT1621_segtab[4], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 4 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"504
+[; ;ht1621.c: 504:  Write1DataHT1621(HT1621_segtab[5], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 5 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"505
+[; ;ht1621.c: 505:     Temp_Data = command%16;
+[e = _Temp_Data -> % _command -> -> 16 `i `ui `uc ]
+"507
+[; ;ht1621.c: 507:     Write1DataHT1621(HT1621_segtab[6], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 6 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"508
+[; ;ht1621.c: 508:  Write1DataHT1621(HT1621_segtab[7], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 7 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"510
+[; ;ht1621.c: 510: }
+[e :UE 186 ]
+}
+"511
+[; ;ht1621.c: 511: void IR_data_display(unsigned int data){
+[v _IR_data_display `(v ~T0 @X0 1 ef1`ui ]
+{
+[e :U _IR_data_display ]
+[v _data `ui ~T0 @X0 1 r1 ]
+[f ]
+"512
+[; ;ht1621.c: 512:     unsigned char Temp_Data;
+[v _Temp_Data `uc ~T0 @X0 1 a ]
+"513
+[; ;ht1621.c: 513:     Temp_Data = data/4096;
+[e = _Temp_Data -> / _data -> -> 4096 `i `ui `uc ]
+"515
+[; ;ht1621.c: 515:     Write1DataHT1621(HT1621_segtab[0], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"516
+[; ;ht1621.c: 516:  Write1DataHT1621(HT1621_segtab[1], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 1 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"517
+[; ;ht1621.c: 517:     Temp_Data = data%4096/256;
+[e = _Temp_Data -> / % _data -> -> 4096 `i `ui -> -> 256 `i `ui `uc ]
+"519
+[; ;ht1621.c: 519:     Write1DataHT1621(HT1621_segtab[2], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 2 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"520
+[; ;ht1621.c: 520:  Write1DataHT1621(HT1621_segtab[3], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 3 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"521
+[; ;ht1621.c: 521:     Temp_Data = data%256/16;
+[e = _Temp_Data -> / % _data -> -> 256 `i `ui -> -> 16 `i `ui `uc ]
+"523
+[; ;ht1621.c: 523:     Write1DataHT1621(HT1621_segtab[4], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 4 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"524
+[; ;ht1621.c: 524:  Write1DataHT1621(HT1621_segtab[5], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 5 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"525
+[; ;ht1621.c: 525:     Temp_Data = data%16;
+[e = _Temp_Data -> % _data -> -> 16 `i `ui `uc ]
+"527
+[; ;ht1621.c: 527:     Write1DataHT1621(HT1621_segtab[6], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 6 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"528
+[; ;ht1621.c: 528:  Write1DataHT1621(HT1621_segtab[7], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 7 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"530
+[; ;ht1621.c: 530: }
+[e :UE 187 ]
+}
+"532
+[; ;ht1621.c: 532: void Setting_display(unsigned char cursor,unsigned char dp[4]){
+[v _Setting_display `(v ~T0 @X0 1 ef2`uc`*uc ]
+{
+[e :U _Setting_display ]
+[v _cursor `uc ~T0 @X0 1 r1 ]
+[v _dp `*uc ~T0 @X0 1 r2 ]
+[f ]
+"533
+[; ;ht1621.c: 533:     unsigned char Temp_Data;
+[v _Temp_Data `uc ~T0 @X0 1 a ]
+"534
+[; ;ht1621.c: 534:     switch(cursor){
+[e $U 190  ]
+{
+"535
+[; ;ht1621.c: 535:         case 0:
+[e :U 191 ]
+"536
+[; ;ht1621.c: 536:             Temp_Data= dp[0];
+[e = _Temp_Data *U + _dp * -> -> 0 `i `x -> -> # *U _dp `i `x ]
+"537
+[; ;ht1621.c: 537:             Write1DataHT1621(HT1621_segtab[0], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"538
+[; ;ht1621.c: 538:             Write1DataHT1621(HT1621_segtab[1], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 1 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"539
+[; ;ht1621.c: 539:             Temp_Data = dp[1];
+[e = _Temp_Data *U + _dp * -> -> 1 `i `x -> -> # *U _dp `i `x ]
+"541
+[; ;ht1621.c: 541:             Write1DataHT1621(HT1621_segtab[2], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 2 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"542
+[; ;ht1621.c: 542:             Write1DataHT1621(HT1621_segtab[3], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 3 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"543
+[; ;ht1621.c: 543:             Temp_Data = dp[2];
+[e = _Temp_Data *U + _dp * -> -> 2 `i `x -> -> # *U _dp `i `x ]
+"545
+[; ;ht1621.c: 545:             Write1DataHT1621(HT1621_segtab[4], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 4 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"546
+[; ;ht1621.c: 546:             Write1DataHT1621(HT1621_segtab[5], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 5 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"547
+[; ;ht1621.c: 547:             Temp_Data = dp[3];
+[e = _Temp_Data *U + _dp * -> -> 3 `i `x -> -> # *U _dp `i `x ]
+"549
+[; ;ht1621.c: 549:             Write1DataHT1621(HT1621_segtab[6], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 6 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"550
+[; ;ht1621.c: 550:             Write1DataHT1621(HT1621_segtab[7], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 7 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"551
+[; ;ht1621.c: 551:             break;
+[e $U 189  ]
+"552
+[; ;ht1621.c: 552:         case 1:
+[e :U 192 ]
+"553
+[; ;ht1621.c: 553:             Temp_Data= dp[0];
+[e = _Temp_Data *U + _dp * -> -> 0 `i `x -> -> # *U _dp `i `x ]
+"554
+[; ;ht1621.c: 554:             Write1DataHT1621(HT1621_segtab[0], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"555
+[; ;ht1621.c: 555:             Write1DataHT1621(HT1621_segtab[1], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 1 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"556
+[; ;ht1621.c: 556:             Temp_Data = dp[1];
+[e = _Temp_Data *U + _dp * -> -> 1 `i `x -> -> # *U _dp `i `x ]
+"558
+[; ;ht1621.c: 558:             Write1DataHT1621(HT1621_segtab[2], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 2 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"559
+[; ;ht1621.c: 559:             Write1DataHT1621(HT1621_segtab[3], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 3 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"560
+[; ;ht1621.c: 560:             Temp_Data = dp[2];
+[e = _Temp_Data *U + _dp * -> -> 2 `i `x -> -> # *U _dp `i `x ]
+"562
+[; ;ht1621.c: 562:             Write1DataHT1621(HT1621_segtab[4], (LCD_RAM_Tab[Temp_Data])>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 4 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"563
+[; ;ht1621.c: 563:             Write1DataHT1621(HT1621_segtab[5], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 5 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"564
+[; ;ht1621.c: 564:             Temp_Data = dp[3];
+[e = _Temp_Data *U + _dp * -> -> 3 `i `x -> -> # *U _dp `i `x ]
+"566
+[; ;ht1621.c: 566:             Write1DataHT1621(HT1621_segtab[6], (LCD_RAM_Tab[Temp_Data])>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 6 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"567
+[; ;ht1621.c: 567:             Write1DataHT1621(HT1621_segtab[7], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 7 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"568
+[; ;ht1621.c: 568:             break;
+[e $U 189  ]
+"569
+[; ;ht1621.c: 569:         case 2:
+[e :U 193 ]
+"570
+[; ;ht1621.c: 570:             Temp_Data= dp[0];
+[e = _Temp_Data *U + _dp * -> -> 0 `i `x -> -> # *U _dp `i `x ]
+"571
+[; ;ht1621.c: 571:             Write1DataHT1621(HT1621_segtab[0], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"572
+[; ;ht1621.c: 572:             Write1DataHT1621(HT1621_segtab[1], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 1 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"573
+[; ;ht1621.c: 573:             Temp_Data = dp[1];
+[e = _Temp_Data *U + _dp * -> -> 1 `i `x -> -> # *U _dp `i `x ]
+"575
+[; ;ht1621.c: 575:             Write1DataHT1621(HT1621_segtab[2], (LCD_RAM_Tab[Temp_Data])>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 2 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"576
+[; ;ht1621.c: 576:             Write1DataHT1621(HT1621_segtab[3], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 3 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"577
+[; ;ht1621.c: 577:             Temp_Data = dp[2];
+[e = _Temp_Data *U + _dp * -> -> 2 `i `x -> -> # *U _dp `i `x ]
+"579
+[; ;ht1621.c: 579:             Write1DataHT1621(HT1621_segtab[4], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 4 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"580
+[; ;ht1621.c: 580:             Write1DataHT1621(HT1621_segtab[5], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 5 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"581
+[; ;ht1621.c: 581:             Temp_Data = dp[3];
+[e = _Temp_Data *U + _dp * -> -> 3 `i `x -> -> # *U _dp `i `x ]
+"583
+[; ;ht1621.c: 583:             Write1DataHT1621(HT1621_segtab[6], (LCD_RAM_Tab[Temp_Data])>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 6 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"584
+[; ;ht1621.c: 584:             Write1DataHT1621(HT1621_segtab[7], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 7 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"585
+[; ;ht1621.c: 585:             break;
+[e $U 189  ]
+"586
+[; ;ht1621.c: 586:         case 3:
+[e :U 194 ]
+"587
+[; ;ht1621.c: 587:             Temp_Data= dp[0];
+[e = _Temp_Data *U + _dp * -> -> 0 `i `x -> -> # *U _dp `i `x ]
+"588
+[; ;ht1621.c: 588:             Write1DataHT1621(HT1621_segtab[0], LCD_RAM_Tab[Temp_Data]>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 0 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"589
+[; ;ht1621.c: 589:             Write1DataHT1621(HT1621_segtab[1], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 1 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"590
+[; ;ht1621.c: 590:             Temp_Data = dp[1];
+[e = _Temp_Data *U + _dp * -> -> 1 `i `x -> -> # *U _dp `i `x ]
+"592
+[; ;ht1621.c: 592:             Write1DataHT1621(HT1621_segtab[2], (LCD_RAM_Tab[Temp_Data])>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 2 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"593
+[; ;ht1621.c: 593:             Write1DataHT1621(HT1621_segtab[3], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 3 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"594
+[; ;ht1621.c: 594:             Temp_Data = dp[2];
+[e = _Temp_Data *U + _dp * -> -> 2 `i `x -> -> # *U _dp `i `x ]
+"596
+[; ;ht1621.c: 596:             Write1DataHT1621(HT1621_segtab[4], (LCD_RAM_Tab[Temp_Data])>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 4 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 4 `i `uc ]
+"597
+[; ;ht1621.c: 597:             Write1DataHT1621(HT1621_segtab[5], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 5 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"598
+[; ;ht1621.c: 598:             Temp_Data = dp[3];
+[e = _Temp_Data *U + _dp * -> -> 3 `i `x -> -> # *U _dp `i `x ]
+"600
+[; ;ht1621.c: 600:             Write1DataHT1621(HT1621_segtab[6], (LCD_RAM_Tab[Temp_Data]|0x80)>>4);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 6 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> | -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 128 `i -> 4 `i `uc ]
+"601
+[; ;ht1621.c: 601:             Write1DataHT1621(HT1621_segtab[7], LCD_RAM_Tab[Temp_Data]>>0);
+[e ( _Write1DataHT1621 (2 , *U + &U _HT1621_segtab * -> -> -> 7 `i `ui `ux -> -> # *U &U _HT1621_segtab `ui `ux -> >> -> *U + &U _LCD_RAM_Tab * -> _Temp_Data `ux -> -> # *U &U _LCD_RAM_Tab `ui `ux `i -> 0 `i `uc ]
+"602
+[; ;ht1621.c: 602:             break;
+[e $U 189  ]
+"603
+[; ;ht1621.c: 603:         default:
+[e :U 195 ]
+"604
+[; ;ht1621.c: 604:             break;
+[e $U 189  ]
+"605
+[; ;ht1621.c: 605:     }
+}
+[e $U 189  ]
+[e :U 190 ]
+[e [\ -> _cursor `i , $ -> 0 `i 191
+ , $ -> 1 `i 192
+ , $ -> 2 `i 193
+ , $ -> 3 `i 194
+ 195 ]
+[e :U 189 ]
+"608
+[; ;ht1621.c: 608: }
+[e :UE 188 ]
+}

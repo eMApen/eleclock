@@ -1,0 +1,1655 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[p mainexit ]
+"2950 D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2950: extern volatile __bit TRISB5 __attribute__((address(0x435)));
+[v _TRISB5 `Vb ~T0 @X0 0 e@1077 ]
+"2689
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2689: extern volatile __bit RB5 __attribute__((address(0x35)));
+[v _RB5 `Vb ~T0 @X0 0 e@53 ]
+"72 ./ht1621.h
+[; ;./ht1621.h: 72: void HT1621_Init(void);
+[v _HT1621_Init `(v ~T0 @X0 0 ef ]
+"22 ./clock.h
+[; ;./clock.h: 22: void I2C_Init(const unsigned long freq);
+[v _I2C_Init `(v ~T0 @X0 0 ef1`Cul ]
+"24 ./irf.h
+[; ;./irf.h: 24: void init_io(void);
+[v _init_io `(v ~T0 @X0 0 ef ]
+"24 ./clock.h
+[; ;./clock.h: 24: void updateTime();
+[v _updateTime `(v ~T0 @X0 0 e? ]
+"79 ./ht1621.h
+[; ;./ht1621.h: 79: void HT1621_Display_Year(unsigned int year);
+[v _HT1621_Display_Year `(v ~T0 @X0 0 ef1`ui ]
+"78
+[; ;./ht1621.h: 78: void HT1621_Display_Date(unsigned int mon,unsigned int date);
+[v _HT1621_Display_Date `(v ~T0 @X0 0 ef2`ui`ui ]
+"77
+[; ;./ht1621.h: 77: void HT1621_Display_Time(char sec,unsigned int hour,unsigned int min);
+[v _HT1621_Display_Time `(v ~T0 @X0 0 ef3`uc`ui`ui ]
+"81
+[; ;./ht1621.h: 81: void IR_data_display(unsigned int data);
+[v _IR_data_display `(v ~T0 @X0 0 ef1`ui ]
+"23 ./clock.h
+[; ;./clock.h: 23: void setTime();
+[v _setTime `(v ~T0 @X0 0 e? ]
+"82 ./ht1621.h
+[; ;./ht1621.h: 82: void Setting_display(unsigned char cursor,unsigned char dp[4]);
+[v _Setting_display `(v ~T0 @X0 0 ef2`uc`*uc ]
+[t ~ __interrupt . k ]
+[t T1 __interrupt ]
+"2851 D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2851: extern volatile __bit T0IF __attribute__((address(0x5A)));
+[v _T0IF `Vb ~T0 @X0 0 e@90 ]
+"59
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 59: extern volatile unsigned char TMR0 __attribute__((address(0x001)));
+[v _TMR0 `Vuc ~T0 @X0 0 e@1 ]
+"2461
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2461: extern volatile __bit CCP2IF __attribute__((address(0x68)));
+[v _CCP2IF `Vb ~T0 @X0 0 e@104 ]
+"2569
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2569: extern volatile __bit GIE __attribute__((address(0x5F)));
+[v _GIE `Vb ~T0 @X0 0 e@95 ]
+"25 ./irf.h
+[; ;./irf.h: 25: void wrong(int errorid);
+[v _wrong `(v ~T0 @X0 0 ef1`i ]
+"26
+[; ;./irf.h: 26: unsigned char one_zero(void);
+[v _one_zero `(uc ~T0 @X0 0 ef ]
+"14 eleclockmain.c
+[p x FOSC  =  HS         ]
+"15
+[p x WDTE  =  OFF        ]
+"16
+[p x PWRTE  =  OFF       ]
+"17
+[p x BOREN  =  OFF       ]
+"18
+[p x LVP  =  OFF         ]
+"19
+[p x CPD  =  OFF         ]
+"20
+[p x WRT  =  OFF         ]
+"21
+[p x CP  =  OFF          ]
+"54 D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"218
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 218: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"280
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 280: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"342
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 342: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"404
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 404: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"436
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 436: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"456
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 456: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"534
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 534: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"596
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 596: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"636
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 636: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"643
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 643: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"650
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 650: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"657
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 657: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"732
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 732: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"739
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 739: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"810
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 810: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"817
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 817: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"887
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 887: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"894
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 894: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"901
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 901: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"908
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 908: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"966
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 966: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1061
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1061: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1068
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1068: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1075
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1075: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1082
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1082: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1089
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1089: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1096
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1096: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1154
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1154: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1161
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1161: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1257
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1257: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1327
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1327: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1377
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1377: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1439
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1439: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1501
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1501: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1563
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1563: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1620
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1620: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1682
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1682: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1722
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1722: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1756
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1756: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"1818
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1818: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"1825
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1825: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"1832
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 1832: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2001
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2001: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2082
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2082: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2089
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2089: __asm("CMCON equ 09Ch");
+[; <" CMCON equ 09Ch ;# ">
+"2159
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2159: __asm("CVRCON equ 09Dh");
+[; <" CVRCON equ 09Dh ;# ">
+"2224
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2224: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2231
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2231: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"2290
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2290: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"2297
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2297: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"2304
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2304: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"2311
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2311: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"2318
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2318: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"2363
+[; ;D:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f877a.h: 2363: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"16 ./clock.h
+[; ;./clock.h: 16: unsigned int year = 22;
+[v _year `ui ~T0 @X0 1 e ]
+[i _year
+-> -> 22 `i `ui
+]
+"17
+[; ;./clock.h: 17: unsigned int month = 02;
+[v _month `ui ~T0 @X0 1 e ]
+[i _month
+-> -> 2 `i `ui
+]
+"18
+[; ;./clock.h: 18: unsigned int date = 01;
+[v _date `ui ~T0 @X0 1 e ]
+[i _date
+-> -> 1 `i `ui
+]
+"19
+[; ;./clock.h: 19: unsigned int hour = 22;
+[v _hour `ui ~T0 @X0 1 e ]
+[i _hour
+-> -> 22 `i `ui
+]
+"20
+[; ;./clock.h: 20: unsigned int min = 21;
+[v _min `ui ~T0 @X0 1 e ]
+[i _min
+-> -> 21 `i `ui
+]
+"21
+[; ;./clock.h: 21: unsigned int sec = 01;
+[v _sec `ui ~T0 @X0 1 e ]
+[i _sec
+-> -> 1 `i `ui
+]
+"17 ./irf.h
+[; ;./irf.h: 17: unsigned char tmr_times;
+[v _tmr_times `uc ~T0 @X0 1 e ]
+"18
+[; ;./irf.h: 18: unsigned char code_data;
+[v _code_data `uc ~T0 @X0 1 e ]
+"19
+[; ;./irf.h: 19: unsigned int code;
+[v _code `ui ~T0 @X0 1 e ]
+"20
+[; ;./irf.h: 20: unsigned char int_times;
+[v _int_times `uc ~T0 @X0 1 e ]
+"21
+[; ;./irf.h: 21: unsigned char buf1;
+[v _buf1 `uc ~T0 @X0 1 e ]
+"22
+[; ;./irf.h: 22: unsigned int fengcon;
+[v _fengcon `ui ~T0 @X0 1 e ]
+"23
+[; ;./irf.h: 23: unsigned char head_ok;
+[v _head_ok `uc ~T0 @X0 1 e ]
+"50 eleclockmain.c
+[; ;eleclockmain.c: 50: unsigned char Mode,Setting,cursor;
+[v _Mode `uc ~T0 @X0 1 e ]
+[v _Setting `uc ~T0 @X0 1 e ]
+[v _cursor `uc ~T0 @X0 1 e ]
+"51
+[; ;eleclockmain.c: 51: unsigned int IRKey=0;
+[v _IRKey `ui ~T0 @X0 1 e ]
+[i _IRKey
+-> -> 0 `i `ui
+]
+"52
+[; ;eleclockmain.c: 52: unsigned char display[4]={0,0,0,0};
+[v _display `uc ~T0 @X0 -> 4 `i e ]
+[i _display
+:U ..
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+-> -> 0 `i `uc
+..
+]
+[v $root$_main `(v ~T0 @X0 0 e ]
+"54
+[; ;eleclockmain.c: 54: void main(void) {
+[v _main `(v ~T0 @X0 1 ef ]
+{
+[e :U _main ]
+[f ]
+"55
+[; ;eleclockmain.c: 55:     TRISB5=0;
+[e = _TRISB5 -> -> 0 `i `b ]
+"56
+[; ;eleclockmain.c: 56:     RB5=0;
+[e = _RB5 -> -> 0 `i `b ]
+"57
+[; ;eleclockmain.c: 57:     HT1621_Init();
+[e ( _HT1621_Init ..  ]
+"58
+[; ;eleclockmain.c: 58:     I2C_Init(100);
+[e ( _I2C_Init (1 -> -> -> 100 `i `l `ul ]
+"59
+[; ;eleclockmain.c: 59:     init_io();
+[e ( _init_io ..  ]
+"60
+[; ;eleclockmain.c: 60:     Mode = 0x3;
+[e = _Mode -> -> 3 `i `uc ]
+"62
+[; ;eleclockmain.c: 62:     updateTime();
+[e ( _updateTime ..  ]
+"65
+[; ;eleclockmain.c: 65:     while(1){
+[e :U 97 ]
+{
+"69
+[; ;eleclockmain.c: 69:         if(!Setting){
+[e $ ! ! != -> _Setting `i -> 0 `i 99  ]
+{
+"70
+[; ;eleclockmain.c: 70:             updateTime();
+[e ( _updateTime ..  ]
+"71
+[; ;eleclockmain.c: 71:             switch(Mode){
+[e $U 101  ]
+{
+"73
+[; ;eleclockmain.c: 73:                 case 0x1:
+[e :U 102 ]
+"74
+[; ;eleclockmain.c: 74:                     HT1621_Display_Year(year);
+[e ( _HT1621_Display_Year (1 _year ]
+"75
+[; ;eleclockmain.c: 75:                     break;
+[e $U 100  ]
+"76
+[; ;eleclockmain.c: 76:                 case 0x2:
+[e :U 103 ]
+"77
+[; ;eleclockmain.c: 77:                     HT1621_Display_Date(month,date);
+[e ( _HT1621_Display_Date (2 , _month _date ]
+"78
+[; ;eleclockmain.c: 78:                     break;
+[e $U 100  ]
+"79
+[; ;eleclockmain.c: 79:                 case 0x3:
+[e :U 104 ]
+"80
+[; ;eleclockmain.c: 80:                     HT1621_Display_Time(0,hour,min);
+[e ( _HT1621_Display_Time (3 , , -> -> 0 `i `uc _hour _min ]
+"81
+[; ;eleclockmain.c: 81:                     break;
+[e $U 100  ]
+"82
+[; ;eleclockmain.c: 82:                 case 0x4:
+[e :U 105 ]
+"83
+[; ;eleclockmain.c: 83:                     HT1621_Display_Time(1,min,sec);
+[e ( _HT1621_Display_Time (3 , , -> -> 1 `i `uc _min _sec ]
+"84
+[; ;eleclockmain.c: 84:                     break;
+[e $U 100  ]
+"85
+[; ;eleclockmain.c: 85:                 default:
+[e :U 106 ]
+"86
+[; ;eleclockmain.c: 86:                     IR_data_display(IRKey);
+[e ( _IR_data_display (1 _IRKey ]
+"87
+[; ;eleclockmain.c: 87:                     break;
+[e $U 100  ]
+"88
+[; ;eleclockmain.c: 88:             }
+}
+[e $U 100  ]
+[e :U 101 ]
+[e [\ -> _Mode `i , $ -> 1 `i 102
+ , $ -> 2 `i 103
+ , $ -> 3 `i 104
+ , $ -> 4 `i 105
+ 106 ]
+[e :U 100 ]
+"89
+[; ;eleclockmain.c: 89:         }
+}
+[e :U 99 ]
+"92
+[; ;eleclockmain.c: 92:         switch(IRKey){
+[e $U 108  ]
+{
+"95
+[; ;eleclockmain.c: 95:             case 0x15:
+[e :U 109 ]
+"96
+[; ;eleclockmain.c: 96:                 if(Setting){
+[e $ ! != -> _Setting `i -> 0 `i 110  ]
+{
+"98
+[; ;eleclockmain.c: 98:                     switch(Mode){
+[e $U 112  ]
+{
+"99
+[; ;eleclockmain.c: 99:                         case 0x1:
+[e :U 113 ]
+"100
+[; ;eleclockmain.c: 100:                             year=display[0]*1000+display[1]*100+display[2]*10+display[3];
+[e = _year -> + + + * -> *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux `i -> 1000 `i * -> *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux `i -> 100 `i * -> *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux `i -> 10 `i -> *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux `i `ui ]
+"101
+[; ;eleclockmain.c: 101:                             break;
+[e $U 111  ]
+"102
+[; ;eleclockmain.c: 102:                         case 0x2:
+[e :U 114 ]
+"103
+[; ;eleclockmain.c: 103:                             month=display[0]*10+display[1];
+[e = _month -> + * -> *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux `i -> 10 `i -> *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux `i `ui ]
+"104
+[; ;eleclockmain.c: 104:                             date=display[2]*10+display[3];
+[e = _date -> + * -> *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux `i -> 10 `i -> *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux `i `ui ]
+"105
+[; ;eleclockmain.c: 105:                             break;
+[e $U 111  ]
+"106
+[; ;eleclockmain.c: 106:                         case 0x3:
+[e :U 115 ]
+"107
+[; ;eleclockmain.c: 107:                             hour=display[0]*10+display[1];
+[e = _hour -> + * -> *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux `i -> 10 `i -> *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux `i `ui ]
+"108
+[; ;eleclockmain.c: 108:                             min=display[2]*10+display[3];
+[e = _min -> + * -> *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux `i -> 10 `i -> *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux `i `ui ]
+"109
+[; ;eleclockmain.c: 109:                             break;
+[e $U 111  ]
+"110
+[; ;eleclockmain.c: 110:                         case 0x4:
+[e :U 116 ]
+"111
+[; ;eleclockmain.c: 111:                             min=display[0]*10+display[1];
+[e = _min -> + * -> *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux `i -> 10 `i -> *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux `i `ui ]
+"112
+[; ;eleclockmain.c: 112:                             sec=display[2]*10+display[3];
+[e = _sec -> + * -> *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux `i -> 10 `i -> *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux `i `ui ]
+"113
+[; ;eleclockmain.c: 113:                             break;
+[e $U 111  ]
+"114
+[; ;eleclockmain.c: 114:                         default:
+[e :U 117 ]
+"115
+[; ;eleclockmain.c: 115:                             break;
+[e $U 111  ]
+"116
+[; ;eleclockmain.c: 116:                     }
+}
+[e $U 111  ]
+[e :U 112 ]
+[e [\ -> _Mode `i , $ -> 1 `i 113
+ , $ -> 2 `i 114
+ , $ -> 3 `i 115
+ , $ -> 4 `i 116
+ 117 ]
+[e :U 111 ]
+"117
+[; ;eleclockmain.c: 117:                     setTime();
+[e ( _setTime ..  ]
+"118
+[; ;eleclockmain.c: 118:                     Setting=0;
+[e = _Setting -> -> 0 `i `uc ]
+"119
+[; ;eleclockmain.c: 119:                 }
+}
+[e :U 110 ]
+"121
+[; ;eleclockmain.c: 121:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"122
+[; ;eleclockmain.c: 122:                 break;
+[e $U 107  ]
+"125
+[; ;eleclockmain.c: 125:             case 0x47:
+[e :U 118 ]
+"126
+[; ;eleclockmain.c: 126:                 if(Setting==0){
+[e $ ! == -> _Setting `i -> 0 `i 119  ]
+{
+"128
+[; ;eleclockmain.c: 128:                     switch(Mode){
+[e $U 121  ]
+{
+"129
+[; ;eleclockmain.c: 129:                         case 0x1:
+[e :U 122 ]
+"130
+[; ;eleclockmain.c: 130:                             display[0]=year/1000;
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> / _year -> -> 1000 `i `ui `uc ]
+"131
+[; ;eleclockmain.c: 131:                             display[1]=year % 1000 / 100;
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> / % _year -> -> 1000 `i `ui -> -> 100 `i `ui `uc ]
+"132
+[; ;eleclockmain.c: 132:                             display[2]=year % 1000 % 100 / 10;
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> / % % _year -> -> 1000 `i `ui -> -> 100 `i `ui -> -> 10 `i `ui `uc ]
+"133
+[; ;eleclockmain.c: 133:                             display[3]=year % 1000 % 100 % 10;
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> % % % _year -> -> 1000 `i `ui -> -> 100 `i `ui -> -> 10 `i `ui `uc ]
+"134
+[; ;eleclockmain.c: 134:                             break;
+[e $U 120  ]
+"135
+[; ;eleclockmain.c: 135:                         case 0x2:
+[e :U 123 ]
+"136
+[; ;eleclockmain.c: 136:                             display[0]=month / 10;
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> / _month -> -> 10 `i `ui `uc ]
+"137
+[; ;eleclockmain.c: 137:                             display[1]=month % 10;
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> % _month -> -> 10 `i `ui `uc ]
+"138
+[; ;eleclockmain.c: 138:                             display[2]=date / 10;
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> / _date -> -> 10 `i `ui `uc ]
+"139
+[; ;eleclockmain.c: 139:                             display[3]=date % 10;
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> % _date -> -> 10 `i `ui `uc ]
+"140
+[; ;eleclockmain.c: 140:                             break;
+[e $U 120  ]
+"141
+[; ;eleclockmain.c: 141:                         case 0x3:
+[e :U 124 ]
+"142
+[; ;eleclockmain.c: 142:                             display[0]=hour / 10;
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> / _hour -> -> 10 `i `ui `uc ]
+"143
+[; ;eleclockmain.c: 143:                             display[1]=hour % 10;
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> % _hour -> -> 10 `i `ui `uc ]
+"144
+[; ;eleclockmain.c: 144:                             display[2]=min / 10;
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> / _min -> -> 10 `i `ui `uc ]
+"145
+[; ;eleclockmain.c: 145:                             display[3]=min % 10;
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> % _min -> -> 10 `i `ui `uc ]
+"146
+[; ;eleclockmain.c: 146:                             break;
+[e $U 120  ]
+"148
+[; ;eleclockmain.c: 148:                         case 0x4:
+[e :U 125 ]
+"149
+[; ;eleclockmain.c: 149:                             display[0]=min / 10;
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> / _min -> -> 10 `i `ui `uc ]
+"150
+[; ;eleclockmain.c: 150:                             display[1]=min % 10;
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> % _min -> -> 10 `i `ui `uc ]
+"151
+[; ;eleclockmain.c: 151:                             display[2]=sec / 10;
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> / _sec -> -> 10 `i `ui `uc ]
+"152
+[; ;eleclockmain.c: 152:                             display[3]=sec % 10;
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> % _sec -> -> 10 `i `ui `uc ]
+"153
+[; ;eleclockmain.c: 153:                             break;
+[e $U 120  ]
+"154
+[; ;eleclockmain.c: 154:                         default:
+[e :U 126 ]
+"155
+[; ;eleclockmain.c: 155:                             break;
+[e $U 120  ]
+"156
+[; ;eleclockmain.c: 156:                     }
+}
+[e $U 120  ]
+[e :U 121 ]
+[e [\ -> _Mode `i , $ -> 1 `i 122
+ , $ -> 2 `i 123
+ , $ -> 3 `i 124
+ , $ -> 4 `i 125
+ 126 ]
+[e :U 120 ]
+"157
+[; ;eleclockmain.c: 157:                     Setting=1;
+[e = _Setting -> -> 1 `i `uc ]
+"158
+[; ;eleclockmain.c: 158:                     cursor=0;
+[e = _cursor -> -> 0 `i `uc ]
+"159
+[; ;eleclockmain.c: 159:                     Setting_display(cursor,display);
+[e ( _Setting_display (2 , _cursor &U _display ]
+"160
+[; ;eleclockmain.c: 160:                 }
+}
+[e :U 119 ]
+"161
+[; ;eleclockmain.c: 161:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"162
+[; ;eleclockmain.c: 162:                 break;
+[e $U 107  ]
+"163
+[; ;eleclockmain.c: 163:             case 0x16:
+[e :U 127 ]
+"164
+[; ;eleclockmain.c: 164:                 if(Setting){
+[e $ ! != -> _Setting `i -> 0 `i 128  ]
+{
+"165
+[; ;eleclockmain.c: 165:                     switch(cursor){
+[e $U 130  ]
+{
+"166
+[; ;eleclockmain.c: 166:                         case 0: display[0]=0;break;
+[e :U 131 ]
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 0 `i `uc ]
+[e $U 129  ]
+"167
+[; ;eleclockmain.c: 167:                         case 1: display[1]=0;break;
+[e :U 132 ]
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 0 `i `uc ]
+[e $U 129  ]
+"168
+[; ;eleclockmain.c: 168:                         case 2: display[2]=0;break;
+[e :U 133 ]
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 0 `i `uc ]
+[e $U 129  ]
+"169
+[; ;eleclockmain.c: 169:                         case 3: display[3]=0;break;
+[e :U 134 ]
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 0 `i `uc ]
+[e $U 129  ]
+"170
+[; ;eleclockmain.c: 170:                         default: break;
+[e :U 135 ]
+[e $U 129  ]
+"171
+[; ;eleclockmain.c: 171:                     }
+}
+[e $U 129  ]
+[e :U 130 ]
+[e [\ -> _cursor `i , $ -> 0 `i 131
+ , $ -> 1 `i 132
+ , $ -> 2 `i 133
+ , $ -> 3 `i 134
+ 135 ]
+[e :U 129 ]
+"172
+[; ;eleclockmain.c: 172:                     Setting_display(cursor,display);
+[e ( _Setting_display (2 , _cursor &U _display ]
+"173
+[; ;eleclockmain.c: 173:                 }
+}
+[e :U 128 ]
+"174
+[; ;eleclockmain.c: 174:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"175
+[; ;eleclockmain.c: 175:                 break;
+[e $U 107  ]
+"176
+[; ;eleclockmain.c: 176:             case 0x0C:
+[e :U 136 ]
+"177
+[; ;eleclockmain.c: 177:                 if(Setting){
+[e $ ! != -> _Setting `i -> 0 `i 137  ]
+{
+"178
+[; ;eleclockmain.c: 178:                     switch(cursor){
+[e $U 139  ]
+{
+"179
+[; ;eleclockmain.c: 179:                         case 0: display[0]=1;break;
+[e :U 140 ]
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 1 `i `uc ]
+[e $U 138  ]
+"180
+[; ;eleclockmain.c: 180:                         case 1: display[1]=1;break;
+[e :U 141 ]
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 1 `i `uc ]
+[e $U 138  ]
+"181
+[; ;eleclockmain.c: 181:                         case 2: display[2]=1;break;
+[e :U 142 ]
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 1 `i `uc ]
+[e $U 138  ]
+"182
+[; ;eleclockmain.c: 182:                         case 3: display[3]=1;break;
+[e :U 143 ]
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 1 `i `uc ]
+[e $U 138  ]
+"183
+[; ;eleclockmain.c: 183:                         default: break;
+[e :U 144 ]
+[e $U 138  ]
+"184
+[; ;eleclockmain.c: 184:                     }
+}
+[e $U 138  ]
+[e :U 139 ]
+[e [\ -> _cursor `i , $ -> 0 `i 140
+ , $ -> 1 `i 141
+ , $ -> 2 `i 142
+ , $ -> 3 `i 143
+ 144 ]
+[e :U 138 ]
+"185
+[; ;eleclockmain.c: 185:                     Setting_display(cursor,display);
+[e ( _Setting_display (2 , _cursor &U _display ]
+"186
+[; ;eleclockmain.c: 186:                 }
+}
+[e :U 137 ]
+"187
+[; ;eleclockmain.c: 187:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"188
+[; ;eleclockmain.c: 188:                 break;
+[e $U 107  ]
+"190
+[; ;eleclockmain.c: 190:             case 0x18:
+[e :U 145 ]
+"191
+[; ;eleclockmain.c: 191:                 if(Setting){
+[e $ ! != -> _Setting `i -> 0 `i 146  ]
+{
+"192
+[; ;eleclockmain.c: 192:                     switch(cursor){
+[e $U 148  ]
+{
+"193
+[; ;eleclockmain.c: 193:                         case 0: display[0]=2;break;
+[e :U 149 ]
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 2 `i `uc ]
+[e $U 147  ]
+"194
+[; ;eleclockmain.c: 194:                         case 1: display[1]=2;break;
+[e :U 150 ]
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 2 `i `uc ]
+[e $U 147  ]
+"195
+[; ;eleclockmain.c: 195:                         case 2: display[2]=2;break;
+[e :U 151 ]
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 2 `i `uc ]
+[e $U 147  ]
+"196
+[; ;eleclockmain.c: 196:                         case 3: display[3]=2;break;
+[e :U 152 ]
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 2 `i `uc ]
+[e $U 147  ]
+"197
+[; ;eleclockmain.c: 197:                         default: break;
+[e :U 153 ]
+[e $U 147  ]
+"198
+[; ;eleclockmain.c: 198:                     }
+}
+[e $U 147  ]
+[e :U 148 ]
+[e [\ -> _cursor `i , $ -> 0 `i 149
+ , $ -> 1 `i 150
+ , $ -> 2 `i 151
+ , $ -> 3 `i 152
+ 153 ]
+[e :U 147 ]
+"199
+[; ;eleclockmain.c: 199:                     Setting_display(cursor,display);
+[e ( _Setting_display (2 , _cursor &U _display ]
+"200
+[; ;eleclockmain.c: 200:                 }
+}
+[e :U 146 ]
+"201
+[; ;eleclockmain.c: 201:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"202
+[; ;eleclockmain.c: 202:                 break;
+[e $U 107  ]
+"204
+[; ;eleclockmain.c: 204:             case 0x5E:
+[e :U 154 ]
+"205
+[; ;eleclockmain.c: 205:                 if(Setting){
+[e $ ! != -> _Setting `i -> 0 `i 155  ]
+{
+"206
+[; ;eleclockmain.c: 206:                     switch(cursor){
+[e $U 157  ]
+{
+"207
+[; ;eleclockmain.c: 207:                         case 0: display[0]=3;break;
+[e :U 158 ]
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 3 `i `uc ]
+[e $U 156  ]
+"208
+[; ;eleclockmain.c: 208:                         case 1: display[1]=3;break;
+[e :U 159 ]
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 3 `i `uc ]
+[e $U 156  ]
+"209
+[; ;eleclockmain.c: 209:                         case 2: display[2]=3;break;
+[e :U 160 ]
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 3 `i `uc ]
+[e $U 156  ]
+"210
+[; ;eleclockmain.c: 210:                         case 3: display[3]=3;break;
+[e :U 161 ]
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 3 `i `uc ]
+[e $U 156  ]
+"211
+[; ;eleclockmain.c: 211:                         default: break;
+[e :U 162 ]
+[e $U 156  ]
+"212
+[; ;eleclockmain.c: 212:                     }
+}
+[e $U 156  ]
+[e :U 157 ]
+[e [\ -> _cursor `i , $ -> 0 `i 158
+ , $ -> 1 `i 159
+ , $ -> 2 `i 160
+ , $ -> 3 `i 161
+ 162 ]
+[e :U 156 ]
+"213
+[; ;eleclockmain.c: 213:                     Setting_display(cursor,display);
+[e ( _Setting_display (2 , _cursor &U _display ]
+"214
+[; ;eleclockmain.c: 214:                 }
+}
+[e :U 155 ]
+"215
+[; ;eleclockmain.c: 215:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"216
+[; ;eleclockmain.c: 216:                 break;
+[e $U 107  ]
+"218
+[; ;eleclockmain.c: 218:             case 0x08:
+[e :U 163 ]
+"219
+[; ;eleclockmain.c: 219:                 if(Setting){
+[e $ ! != -> _Setting `i -> 0 `i 164  ]
+{
+"220
+[; ;eleclockmain.c: 220:                     switch(cursor){
+[e $U 166  ]
+{
+"221
+[; ;eleclockmain.c: 221:                         case 0: display[0]=4;break;
+[e :U 167 ]
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 4 `i `uc ]
+[e $U 165  ]
+"222
+[; ;eleclockmain.c: 222:                         case 1: display[1]=4;break;
+[e :U 168 ]
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 4 `i `uc ]
+[e $U 165  ]
+"223
+[; ;eleclockmain.c: 223:                         case 2: display[2]=4;break;
+[e :U 169 ]
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 4 `i `uc ]
+[e $U 165  ]
+"224
+[; ;eleclockmain.c: 224:                         case 3: display[3]=4;break;
+[e :U 170 ]
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 4 `i `uc ]
+[e $U 165  ]
+"225
+[; ;eleclockmain.c: 225:                         default: break;
+[e :U 171 ]
+[e $U 165  ]
+"226
+[; ;eleclockmain.c: 226:                     }
+}
+[e $U 165  ]
+[e :U 166 ]
+[e [\ -> _cursor `i , $ -> 0 `i 167
+ , $ -> 1 `i 168
+ , $ -> 2 `i 169
+ , $ -> 3 `i 170
+ 171 ]
+[e :U 165 ]
+"227
+[; ;eleclockmain.c: 227:                     Setting_display(cursor,display);
+[e ( _Setting_display (2 , _cursor &U _display ]
+"228
+[; ;eleclockmain.c: 228:                 }
+}
+[e :U 164 ]
+"229
+[; ;eleclockmain.c: 229:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"230
+[; ;eleclockmain.c: 230:                 break;
+[e $U 107  ]
+"231
+[; ;eleclockmain.c: 231:             case 0x1C:
+[e :U 172 ]
+"232
+[; ;eleclockmain.c: 232:                 if(Setting){
+[e $ ! != -> _Setting `i -> 0 `i 173  ]
+{
+"233
+[; ;eleclockmain.c: 233:                     switch(cursor){
+[e $U 175  ]
+{
+"234
+[; ;eleclockmain.c: 234:                         case 0: display[0]=5;break;
+[e :U 176 ]
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 5 `i `uc ]
+[e $U 174  ]
+"235
+[; ;eleclockmain.c: 235:                         case 1: display[1]=5;break;
+[e :U 177 ]
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 5 `i `uc ]
+[e $U 174  ]
+"236
+[; ;eleclockmain.c: 236:                         case 2: display[2]=5;break;
+[e :U 178 ]
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 5 `i `uc ]
+[e $U 174  ]
+"237
+[; ;eleclockmain.c: 237:                         case 3: display[3]=5;break;
+[e :U 179 ]
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 5 `i `uc ]
+[e $U 174  ]
+"238
+[; ;eleclockmain.c: 238:                         default: break;
+[e :U 180 ]
+[e $U 174  ]
+"239
+[; ;eleclockmain.c: 239:                     }
+}
+[e $U 174  ]
+[e :U 175 ]
+[e [\ -> _cursor `i , $ -> 0 `i 176
+ , $ -> 1 `i 177
+ , $ -> 2 `i 178
+ , $ -> 3 `i 179
+ 180 ]
+[e :U 174 ]
+"240
+[; ;eleclockmain.c: 240:                     Setting_display(cursor,display);
+[e ( _Setting_display (2 , _cursor &U _display ]
+"241
+[; ;eleclockmain.c: 241:                 }
+}
+[e :U 173 ]
+"242
+[; ;eleclockmain.c: 242:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"243
+[; ;eleclockmain.c: 243:                 break;
+[e $U 107  ]
+"244
+[; ;eleclockmain.c: 244:             case 0x5a:
+[e :U 181 ]
+"245
+[; ;eleclockmain.c: 245:                 if(Setting){
+[e $ ! != -> _Setting `i -> 0 `i 182  ]
+{
+"246
+[; ;eleclockmain.c: 246:                     switch(cursor){
+[e $U 184  ]
+{
+"247
+[; ;eleclockmain.c: 247:                         case 0: display[0]=6;break;
+[e :U 185 ]
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 6 `i `uc ]
+[e $U 183  ]
+"248
+[; ;eleclockmain.c: 248:                         case 1: display[1]=6;break;
+[e :U 186 ]
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 6 `i `uc ]
+[e $U 183  ]
+"249
+[; ;eleclockmain.c: 249:                         case 2: display[2]=6;break;
+[e :U 187 ]
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 6 `i `uc ]
+[e $U 183  ]
+"250
+[; ;eleclockmain.c: 250:                         case 3: display[3]=6;break;
+[e :U 188 ]
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 6 `i `uc ]
+[e $U 183  ]
+"251
+[; ;eleclockmain.c: 251:                         default: break;
+[e :U 189 ]
+[e $U 183  ]
+"252
+[; ;eleclockmain.c: 252:                     }
+}
+[e $U 183  ]
+[e :U 184 ]
+[e [\ -> _cursor `i , $ -> 0 `i 185
+ , $ -> 1 `i 186
+ , $ -> 2 `i 187
+ , $ -> 3 `i 188
+ 189 ]
+[e :U 183 ]
+"253
+[; ;eleclockmain.c: 253:                     Setting_display(cursor,display);
+[e ( _Setting_display (2 , _cursor &U _display ]
+"254
+[; ;eleclockmain.c: 254:                 }
+}
+[e :U 182 ]
+"255
+[; ;eleclockmain.c: 255:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"256
+[; ;eleclockmain.c: 256:                 break;
+[e $U 107  ]
+"258
+[; ;eleclockmain.c: 258:             case 0x42:
+[e :U 190 ]
+"259
+[; ;eleclockmain.c: 259:                 if(Setting){
+[e $ ! != -> _Setting `i -> 0 `i 191  ]
+{
+"260
+[; ;eleclockmain.c: 260:                     switch(cursor){
+[e $U 193  ]
+{
+"261
+[; ;eleclockmain.c: 261:                         case 0: display[0]=7;break;
+[e :U 194 ]
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 7 `i `uc ]
+[e $U 192  ]
+"262
+[; ;eleclockmain.c: 262:                         case 1: display[1]=7;break;
+[e :U 195 ]
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 7 `i `uc ]
+[e $U 192  ]
+"263
+[; ;eleclockmain.c: 263:                         case 2: display[2]=7;break;
+[e :U 196 ]
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 7 `i `uc ]
+[e $U 192  ]
+"264
+[; ;eleclockmain.c: 264:                         case 3: display[3]=7;break;
+[e :U 197 ]
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 7 `i `uc ]
+[e $U 192  ]
+"265
+[; ;eleclockmain.c: 265:                         default: break;
+[e :U 198 ]
+[e $U 192  ]
+"266
+[; ;eleclockmain.c: 266:                     }
+}
+[e $U 192  ]
+[e :U 193 ]
+[e [\ -> _cursor `i , $ -> 0 `i 194
+ , $ -> 1 `i 195
+ , $ -> 2 `i 196
+ , $ -> 3 `i 197
+ 198 ]
+[e :U 192 ]
+"267
+[; ;eleclockmain.c: 267:                     Setting_display(cursor,display);
+[e ( _Setting_display (2 , _cursor &U _display ]
+"268
+[; ;eleclockmain.c: 268:                 }
+}
+[e :U 191 ]
+"269
+[; ;eleclockmain.c: 269:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"270
+[; ;eleclockmain.c: 270:                 break;
+[e $U 107  ]
+"272
+[; ;eleclockmain.c: 272:             case 0x52:
+[e :U 199 ]
+"273
+[; ;eleclockmain.c: 273:                 if(Setting){
+[e $ ! != -> _Setting `i -> 0 `i 200  ]
+{
+"274
+[; ;eleclockmain.c: 274:                     switch(cursor){
+[e $U 202  ]
+{
+"275
+[; ;eleclockmain.c: 275:                         case 0: display[0]=8;break;
+[e :U 203 ]
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 8 `i `uc ]
+[e $U 201  ]
+"276
+[; ;eleclockmain.c: 276:                         case 1: display[1]=8;break;
+[e :U 204 ]
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 8 `i `uc ]
+[e $U 201  ]
+"277
+[; ;eleclockmain.c: 277:                         case 2: display[2]=8;break;
+[e :U 205 ]
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 8 `i `uc ]
+[e $U 201  ]
+"278
+[; ;eleclockmain.c: 278:                         case 3: display[3]=8;break;
+[e :U 206 ]
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 8 `i `uc ]
+[e $U 201  ]
+"279
+[; ;eleclockmain.c: 279:                         default: break;
+[e :U 207 ]
+[e $U 201  ]
+"280
+[; ;eleclockmain.c: 280:                     }
+}
+[e $U 201  ]
+[e :U 202 ]
+[e [\ -> _cursor `i , $ -> 0 `i 203
+ , $ -> 1 `i 204
+ , $ -> 2 `i 205
+ , $ -> 3 `i 206
+ 207 ]
+[e :U 201 ]
+"281
+[; ;eleclockmain.c: 281:                     Setting_display(cursor,display);
+[e ( _Setting_display (2 , _cursor &U _display ]
+"282
+[; ;eleclockmain.c: 282:                 }
+}
+[e :U 200 ]
+"283
+[; ;eleclockmain.c: 283:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"284
+[; ;eleclockmain.c: 284:                 break;
+[e $U 107  ]
+"286
+[; ;eleclockmain.c: 286:             case 0x4A:
+[e :U 208 ]
+"287
+[; ;eleclockmain.c: 287:                 if(Setting){
+[e $ ! != -> _Setting `i -> 0 `i 209  ]
+{
+"288
+[; ;eleclockmain.c: 288:                     switch(cursor){
+[e $U 211  ]
+{
+"289
+[; ;eleclockmain.c: 289:                         case 0: display[0]=9;break;
+[e :U 212 ]
+[e = *U + &U _display * -> -> -> 0 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 9 `i `uc ]
+[e $U 210  ]
+"290
+[; ;eleclockmain.c: 290:                         case 1: display[1]=9;break;
+[e :U 213 ]
+[e = *U + &U _display * -> -> -> 1 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 9 `i `uc ]
+[e $U 210  ]
+"291
+[; ;eleclockmain.c: 291:                         case 2: display[2]=9;break;
+[e :U 214 ]
+[e = *U + &U _display * -> -> -> 2 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 9 `i `uc ]
+[e $U 210  ]
+"292
+[; ;eleclockmain.c: 292:                         case 3: display[3]=9;break;
+[e :U 215 ]
+[e = *U + &U _display * -> -> -> 3 `i `ui `ux -> -> # *U &U _display `ui `ux -> -> 9 `i `uc ]
+[e $U 210  ]
+"293
+[; ;eleclockmain.c: 293:                         default: break;
+[e :U 216 ]
+[e $U 210  ]
+"294
+[; ;eleclockmain.c: 294:                     }
+}
+[e $U 210  ]
+[e :U 211 ]
+[e [\ -> _cursor `i , $ -> 0 `i 212
+ , $ -> 1 `i 213
+ , $ -> 2 `i 214
+ , $ -> 3 `i 215
+ 216 ]
+[e :U 210 ]
+"295
+[; ;eleclockmain.c: 295:                     Setting_display(cursor,display);
+[e ( _Setting_display (2 , _cursor &U _display ]
+"296
+[; ;eleclockmain.c: 296:                 }
+}
+[e :U 209 ]
+"297
+[; ;eleclockmain.c: 297:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"298
+[; ;eleclockmain.c: 298:                 break;
+[e $U 107  ]
+"300
+[; ;eleclockmain.c: 300:             case 0x07:
+[e :U 217 ]
+"301
+[; ;eleclockmain.c: 301:                 if(Setting){
+[e $ ! != -> _Setting `i -> 0 `i 218  ]
+{
+"302
+[; ;eleclockmain.c: 302:                     if(cursor!=0)cursor--;
+[e $ ! != -> _cursor `i -> 0 `i 219  ]
+[e -- _cursor -> -> 1 `i `uc ]
+[e $U 220  ]
+"303
+[; ;eleclockmain.c: 303:                     else cursor=3;
+[e :U 219 ]
+[e = _cursor -> -> 3 `i `uc ]
+[e :U 220 ]
+"304
+[; ;eleclockmain.c: 304:                     Setting_display(cursor,display);
+[e ( _Setting_display (2 , _cursor &U _display ]
+"305
+[; ;eleclockmain.c: 305:                 }
+}
+[e $U 221  ]
+"306
+[; ;eleclockmain.c: 306:                 else{
+[e :U 218 ]
+{
+"307
+[; ;eleclockmain.c: 307:                     if(Mode!=1)Mode--;
+[e $ ! != -> _Mode `i -> 1 `i 222  ]
+[e -- _Mode -> -> 1 `i `uc ]
+[e $U 223  ]
+"308
+[; ;eleclockmain.c: 308:                     else Mode=1;
+[e :U 222 ]
+[e = _Mode -> -> 1 `i `uc ]
+[e :U 223 ]
+"309
+[; ;eleclockmain.c: 309:                 }
+}
+[e :U 221 ]
+"311
+[; ;eleclockmain.c: 311:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"312
+[; ;eleclockmain.c: 312:                 break;
+[e $U 107  ]
+"313
+[; ;eleclockmain.c: 313:             case 0x09:
+[e :U 224 ]
+"314
+[; ;eleclockmain.c: 314:                 if(Setting){
+[e $ ! != -> _Setting `i -> 0 `i 225  ]
+{
+"315
+[; ;eleclockmain.c: 315:                     if(cursor==3) cursor=0;
+[e $ ! == -> _cursor `i -> 3 `i 226  ]
+[e = _cursor -> -> 0 `i `uc ]
+[e $U 227  ]
+"316
+[; ;eleclockmain.c: 316:                     else cursor++;
+[e :U 226 ]
+[e ++ _cursor -> -> 1 `i `uc ]
+[e :U 227 ]
+"317
+[; ;eleclockmain.c: 317:                     Setting_display(cursor,display);
+[e ( _Setting_display (2 , _cursor &U _display ]
+"318
+[; ;eleclockmain.c: 318:                 }
+}
+[e $U 228  ]
+"319
+[; ;eleclockmain.c: 319:                 else{
+[e :U 225 ]
+{
+"320
+[; ;eleclockmain.c: 320:                     if(Mode!=4)Mode++;
+[e $ ! != -> _Mode `i -> 4 `i 229  ]
+[e ++ _Mode -> -> 1 `i `uc ]
+[e $U 230  ]
+"321
+[; ;eleclockmain.c: 321:                     else Mode=4;
+[e :U 229 ]
+[e = _Mode -> -> 4 `i `uc ]
+[e :U 230 ]
+"322
+[; ;eleclockmain.c: 322:                 }
+}
+[e :U 228 ]
+"323
+[; ;eleclockmain.c: 323:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"324
+[; ;eleclockmain.c: 324:                 break;
+[e $U 107  ]
+"325
+[; ;eleclockmain.c: 325:             case 0x43:
+[e :U 231 ]
+"326
+[; ;eleclockmain.c: 326:                 Setting=0;
+[e = _Setting -> -> 0 `i `uc ]
+"327
+[; ;eleclockmain.c: 327:                 IRKey=0;
+[e = _IRKey -> -> 0 `i `ui ]
+"328
+[; ;eleclockmain.c: 328:                 break;
+[e $U 107  ]
+"329
+[; ;eleclockmain.c: 329:             default:
+[e :U 232 ]
+"330
+[; ;eleclockmain.c: 330:                 break;
+[e $U 107  ]
+"333
+[; ;eleclockmain.c: 333:         }
+}
+[e $U 107  ]
+[e :U 108 ]
+[e [\ _IRKey , $ -> -> 21 `i `ui 109
+ , $ -> -> 71 `i `ui 118
+ , $ -> -> 22 `i `ui 127
+ , $ -> -> 12 `i `ui 136
+ , $ -> -> 24 `i `ui 145
+ , $ -> -> 94 `i `ui 154
+ , $ -> -> 8 `i `ui 163
+ , $ -> -> 28 `i `ui 172
+ , $ -> -> 90 `i `ui 181
+ , $ -> -> 66 `i `ui 190
+ , $ -> -> 82 `i `ui 199
+ , $ -> -> 74 `i `ui 208
+ , $ -> -> 7 `i `ui 217
+ , $ -> -> 9 `i `ui 224
+ , $ -> -> 67 `i `ui 231
+ 232 ]
+[e :U 107 ]
+"361
+[; ;eleclockmain.c: 361:     }
+}
+[e :U 96 ]
+[e $U 97  ]
+[e :U 98 ]
+"362
+[; ;eleclockmain.c: 362:     return;
+[e $UE 95  ]
+"363
+[; ;eleclockmain.c: 363: }
+[e :UE 95 ]
+}
+[v $root$_interrupt_service `(v ~T0 @X0 0 e ]
+"365
+[; ;eleclockmain.c: 365: void __attribute__((picinterrupt(("")))) interrupt_service(){
+[v _interrupt_service `(v ~T1 @X0 1 ef ]
+{
+[e :U _interrupt_service ]
+[f ]
+"366
+[; ;eleclockmain.c: 366:     if(T0IF==1)
+[e $ ! == -> _T0IF `i -> 1 `i 234  ]
+"367
+[; ;eleclockmain.c: 367:     {
+{
+"368
+[; ;eleclockmain.c: 368:         TMR0=0x13;
+[e = _TMR0 -> -> 19 `i `uc ]
+"369
+[; ;eleclockmain.c: 369:         T0IF=0;
+[e = _T0IF -> -> 0 `i `b ]
+"371
+[; ;eleclockmain.c: 371:   tmr_times++;
+[e ++ _tmr_times -> -> 1 `i `uc ]
+"373
+[; ;eleclockmain.c: 373:     }
+}
+[e :U 234 ]
+"374
+[; ;eleclockmain.c: 374:  if(CCP2IF==1)
+[e $ ! == -> _CCP2IF `i -> 1 `i 235  ]
+"375
+[; ;eleclockmain.c: 375:  {
+{
+"376
+[; ;eleclockmain.c: 376:   CCP2IF=0;
+[e = _CCP2IF -> -> 0 `i `b ]
+"377
+[; ;eleclockmain.c: 377:   GIE=0;
+[e = _GIE -> -> 0 `i `b ]
+"378
+[; ;eleclockmain.c: 378:     int_times++;
+[e ++ _int_times -> -> 1 `i `uc ]
+"379
+[; ;eleclockmain.c: 379:     if(head_ok==0)
+[e $ ! == -> _head_ok `i -> 0 `i 236  ]
+"380
+[; ;eleclockmain.c: 380:     {
+{
+"382
+[; ;eleclockmain.c: 382:       if(tmr_times>100&tmr_times<116)
+[e $ ! & > -> _tmr_times `i -> 100 `i < -> _tmr_times `i -> 116 `i 237  ]
+"383
+[; ;eleclockmain.c: 383:       {
+{
+"384
+[; ;eleclockmain.c: 384:          head_ok=1;
+[e = _head_ok -> -> 1 `i `uc ]
+"385
+[; ;eleclockmain.c: 385:          int_times=0;
+[e = _int_times -> -> 0 `i `uc ]
+"386
+[; ;eleclockmain.c: 386:          tmr_times=0;
+[e = _tmr_times -> -> 0 `i `uc ]
+"387
+[; ;eleclockmain.c: 387:       }
+}
+[e $U 238  ]
+"388
+[; ;eleclockmain.c: 388:       else
+[e :U 237 ]
+"389
+[; ;eleclockmain.c: 389:       {
+{
+"390
+[; ;eleclockmain.c: 390:          wrong(0xE010);
+[e ( _wrong (1 -> -> 57360 `ui `i ]
+"391
+[; ;eleclockmain.c: 391:       }
+}
+[e :U 238 ]
+"392
+[; ;eleclockmain.c: 392:     }
+}
+[e $U 239  ]
+"393
+[; ;eleclockmain.c: 393:     else
+[e :U 236 ]
+"394
+[; ;eleclockmain.c: 394:     {
+{
+"395
+[; ;eleclockmain.c: 395:       code_data=code_data>>1;
+[e = _code_data -> >> -> _code_data `i -> 1 `i `uc ]
+"396
+[; ;eleclockmain.c: 396:    buf1=one_zero();
+[e = _buf1 ( _one_zero ..  ]
+"397
+[; ;eleclockmain.c: 397:    tmr_times=0;
+[e = _tmr_times -> -> 0 `i `uc ]
+"398
+[; ;eleclockmain.c: 398:       if(buf1==1)
+[e $ ! == -> _buf1 `i -> 1 `i 240  ]
+"399
+[; ;eleclockmain.c: 399:       {
+{
+"400
+[; ;eleclockmain.c: 400:          code_data|=0x80;
+[e =| _code_data -> -> 128 `i `uc ]
+"401
+[; ;eleclockmain.c: 401:       }
+}
+[e $U 241  ]
+"402
+[; ;eleclockmain.c: 402:    else if(buf1==0)
+[e :U 240 ]
+[e $ ! == -> _buf1 `i -> 0 `i 242  ]
+"403
+[; ;eleclockmain.c: 403:          {
+{
+"404
+[; ;eleclockmain.c: 404:          code_data&=0x7f;
+[e =& _code_data -> -> 127 `i `uc ]
+"405
+[; ;eleclockmain.c: 405:       }
+}
+[e $U 243  ]
+"406
+[; ;eleclockmain.c: 406:    else
+[e :U 242 ]
+"407
+[; ;eleclockmain.c: 407:             {
+{
+"408
+[; ;eleclockmain.c: 408:     wrong(0xE002);
+[e ( _wrong (1 -> -> 57346 `ui `i ]
+"409
+[; ;eleclockmain.c: 409:     return;
+[e $UE 233  ]
+"410
+[; ;eleclockmain.c: 410:    }
+}
+[e :U 243 ]
+[e :U 241 ]
+"411
+[; ;eleclockmain.c: 411:       if(int_times==8)
+[e $ ! == -> _int_times `i -> 8 `i 244  ]
+"412
+[; ;eleclockmain.c: 412:       {
+{
+"414
+[; ;eleclockmain.c: 414:           if(code_data!=0x00)
+[e $ ! != -> _code_data `i -> 0 `i 245  ]
+"415
+[; ;eleclockmain.c: 415:           {
+{
+"416
+[; ;eleclockmain.c: 416:            wrong(0xE003);
+[e ( _wrong (1 -> -> 57347 `ui `i ]
+"417
+[; ;eleclockmain.c: 417:      return;
+[e $UE 233  ]
+"418
+[; ;eleclockmain.c: 418:           }
+}
+[e :U 245 ]
+"419
+[; ;eleclockmain.c: 419:       }
+}
+[e $U 246  ]
+"420
+[; ;eleclockmain.c: 420:       else if(int_times==16)
+[e :U 244 ]
+[e $ ! == -> _int_times `i -> 16 `i 247  ]
+"421
+[; ;eleclockmain.c: 421:       {
+{
+"423
+[; ;eleclockmain.c: 423:           if(code_data!=0xFF)
+[e $ ! != -> _code_data `i -> 255 `i 248  ]
+"424
+[; ;eleclockmain.c: 424:           {
+{
+"425
+[; ;eleclockmain.c: 425:               wrong(0xE004);
+[e ( _wrong (1 -> -> 57348 `ui `i ]
+"426
+[; ;eleclockmain.c: 426:      return;
+[e $UE 233  ]
+"427
+[; ;eleclockmain.c: 427:           }
+}
+[e :U 248 ]
+"428
+[; ;eleclockmain.c: 428:       }
+}
+[e $U 249  ]
+"429
+[; ;eleclockmain.c: 429:       else if(int_times==24)
+[e :U 247 ]
+[e $ ! == -> _int_times `i -> 24 `i 250  ]
+"430
+[; ;eleclockmain.c: 430:       {
+{
+"431
+[; ;eleclockmain.c: 431:          code=code_data;
+[e = _code -> _code_data `ui ]
+"432
+[; ;eleclockmain.c: 432:       }
+}
+[e $U 251  ]
+"433
+[; ;eleclockmain.c: 433:       else if(int_times==32)
+[e :U 250 ]
+[e $ ! == -> _int_times `i -> 32 `i 252  ]
+"434
+[; ;eleclockmain.c: 434:       {
+{
+"435
+[; ;eleclockmain.c: 435:          int_times=0;
+[e = _int_times -> -> 0 `i `uc ]
+"436
+[; ;eleclockmain.c: 436:          head_ok=0;
+[e = _head_ok -> -> 0 `i `uc ]
+"437
+[; ;eleclockmain.c: 437:          if((code+code_data)==0xff)
+[e $ ! == + _code -> _code_data `ui -> -> 255 `i `ui 253  ]
+"438
+[; ;eleclockmain.c: 438:          {
+{
+"439
+[; ;eleclockmain.c: 439:               IRKey= code;
+[e = _IRKey _code ]
+"440
+[; ;eleclockmain.c: 440:              }
+}
+[e $U 254  ]
+"441
+[; ;eleclockmain.c: 441:                 else{
+[e :U 253 ]
+{
+"442
+[; ;eleclockmain.c: 442:                     wrong(0x05);
+[e ( _wrong (1 -> 5 `i ]
+"443
+[; ;eleclockmain.c: 443:                 }
+}
+[e :U 254 ]
+"444
+[; ;eleclockmain.c: 444:       }
+}
+[e :U 252 ]
+[e :U 251 ]
+[e :U 249 ]
+[e :U 246 ]
+"445
+[; ;eleclockmain.c: 445:     }
+}
+[e :U 239 ]
+"446
+[; ;eleclockmain.c: 446:     GIE=1;
+[e = _GIE -> -> 1 `i `b ]
+"447
+[; ;eleclockmain.c: 447:    }
+}
+[e :U 235 ]
+"448
+[; ;eleclockmain.c: 448: }
+[e :UE 233 ]
+}
